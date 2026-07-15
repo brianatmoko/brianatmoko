@@ -49,3 +49,111 @@
 </div>
 
 <!-- BERSAMBUNG KE ZONA 3: PERMUKAAN ============================== -->
+
+<br>
+
+<!-- ================================================================== -->
+<!-- ZONA 6: TECH STACK — LAPISAN TEKNOLOGI                              -->
+<!-- ================================================================== -->
+<img src="https://img.shields.io/badge/TECH_STACK-LAPISAN_TEKNOLOGI-0D0A2E?style=for-the-badge&labelColor=1A1A4E&color=00D2FF" width="800" alt="Tech Stack" />
+
+<br>
+
+```
+  ☁️  CLOUD & INFRA        🖥️  SOFTWARE            ⚡  EMBEDDED
+  ┌──────────────────┐    ┌──────────────────┐    ┌──────────────────┐
+  │ Docker           │    │ Python           │    │ STM32 / ARM      │
+  │ Kubernetes       │    │ C++ / Qt         │    │ ESP32 / RISC-V   │
+  │ GitHub Actions   │    │ Java / Spring    │    │ FreeRTOS         │
+  │ Nginx / Traefik  │    │ TypeScript       │    │ Zephyr RTOS      │
+  │ Postgres / Redis │    │ Flutter / Dart   │    │ LVGL / TouchGFX  │
+  └──────────────────┘    └──────────────────┘    └──────────────────┘
+
+  🔗  NETWORK & PROTOCOL    🧠  AI & VISION        🛠️  TOOLCHAIN
+  ┌──────────────────┐    ┌──────────────────┐    ┌──────────────────┐
+  │ MQTT / CoAP      │    │ TensorFlow Lite  │    │ KiCad / EAGLE    │
+  │ LoRa / BLE / WiFi│    │ OpenCV / YOLO    │    │ GNU MCU Eclipse  │
+  │ CAN Bus / Modbus │    │ MediaPipe        │    │ PlatformIO       │
+  │ gRPC / WebSocket │    │ ONNX / TFLite    │    │ OpenOCD / JLink  │
+  │ TCP/IP Stack     │    │ PyTorch          │    │ Vitis / Vivado   │
+  └──────────────────┘    └──────────────────┘    └──────────────────┘
+```
+
+<br>
+
+<!-- ================================================================== -->
+<!-- ZONA 7: SYSTEM DESIGN — ARSITEKTUR EKOSISTEM                       -->
+<!-- ================================================================== -->
+<img src="https://img.shields.io/badge/SYSTEM_DESIGN-ARSITEKTUR_EKOSISTEM-0D0A2E?style=for-the-badge&labelColor=1A1A4E&color=5FB34A" width="800" alt="System Design" />
+
+<br>
+
+```
+                         ┌─────────────────────┐
+                         │   GITHUB PROFILE     │
+                         │  (brianatmoko/brian- │
+                         │   atmoko)            │
+                         │  Pintu masuk utama   │
+                         └──────┬──────┬────────┘
+                                │      │
+                    ┌───────────┘      └───────────┐
+                    ▼                              ▼
+          ┌─────────────────┐          ┌─────────────────┐
+          │  CORE PROJECTS   │          │  SUPPORTING      │
+          │  (Portfolio)     │          │  INFRASTRUCTURE  │
+          ├─────────────────┤          ├─────────────────┤
+          │ weather-cli     │          │ GitHub Actions   │
+          │ fan-controll    │          │ Docker Registry  │
+          │ embedded-fw     │          │ Cloud Deploy     │
+          │ moko-ai         │          │ Monitoring       │
+          │ pcb-designs     │          │ Documentation    │
+          └─────────────────┘          └─────────────────┘
+
+                ▼              ▼              ▼
+          ┌─────────────────────────────────────────┐
+          │         KNOWLEDGE BASE                  │
+          │  (wiki, schematic, datasheet, tutorial) │
+          └─────────────────────────────────────────┘
+```
+
+| Layer | Fungsi | Tools |
+|-------|--------|-------|
+| **Presentation** | Profile README, project README, docs | Markdown, SVG, shields.io |
+| **Application** | CLI tools, REST API, firmware | Python, C++, Java, Dart |
+| **Infrastructure** | CI/CD, container, deployment | Docker, GitHub Actions, Nginx |
+| **Hardware** | PCB, sensor, aktuator | KiCad, STM32CubeIDE, PlatformIO |
+| **Knowledge** | Dokumentasi teknis, schematic | Markdown, PDF, draw.io |
+
+<br>
+
+<!-- ================================================================== -->
+<!-- ZONA 8: CORE VALUE — NILAI INTI                                    -->
+<!-- ================================================================== -->
+<img src="https://img.shields.io/badge/CORE_VALUE-NILAI_INTI-0D0A2E?style=for-the-badge&labelColor=1A1A4E&color=FCD34D" width="800" alt="Core Value" />
+
+<br>
+
+```
+╔═══════════════════════════════════════════════════════════════╗
+║                                                               ║
+║    "Dari sensor ke cloud — bangun setiap lapisan sendiri"     ║
+║                                                               ║
+║    ┌──────────────────────────────────────────────────────┐   ║
+║    │  HAND-ON  →  Tidak puas cuma pake, harus ngerti      │   ║
+║    │              cara kerja dari bawah.                   │   ║
+║    ├──────────────────────────────────────────────────────┤   ║
+║    │  FULL-STACK EMBEDDED  →  Bukan cuma software atau    │   ║
+║    │  hardware, tapi keduanya sebagai satu kesatuan.      │   ║
+║    ├──────────────────────────────────────────────────────┤   ║
+║    │  BANGUN, BUKAN RAKIT  →  Lebih suka nulis driver    │   ║
+║    │  sendiri daripada pake library instan.               │   ║
+║    ├──────────────────────────────────────────────────────┤   ║
+║    │  OPEN FIRST  →  Semua project publik, dokumentasi    │   ║
+║    │  Bahasa Indonesia — biar adik kelas bisa belajar.    │   ║
+║    ├──────────────────────────────────────────────────────┤   ║
+║    │  DARI MASALAH NYATA  →  Setiap project lahir dari   │   ║
+║    │  kebutuhan yang memang ada di lapangan.              │   ║
+║    └──────────────────────────────────────────────────────┘   ║
+║                                                               ║
+╚═══════════════════════════════════════════════════════════════╝
+```
