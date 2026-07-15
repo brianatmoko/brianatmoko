@@ -78,34 +78,14 @@
   <rect x="226" y="368" width="90" height="24" fill="#23233A" stroke="#4A4A5A" stroke-width="2"/>
   <rect x="228" y="370" width="86" height="20" fill="#6A0DAD"/><text x="271" y="384" text-anchor="middle" font-size="9" fill="#FFFFFF">OpenCV</text>
 
-  <!-- GITHUB STATS panel -->
-  <rect x="30" y="410" width="740" height="100" fill="#23233A" stroke="#4A4A5A" stroke-width="2"/>
-  <rect x="28" y="408" width="744" height="104" fill="none" stroke="#8A8A8A" stroke-width="1" opacity="0.3"/>
+  <!-- LIVE DATA DOCK -->
+  <rect x="30" y="410" width="740" height="78" fill="#23233A" stroke="#4A4A5A" stroke-width="2"/>
+  <rect x="28" y="408" width="744" height="82" fill="none" stroke="#8A8A8A" stroke-width="1" opacity="0.3"/>
   <rect x="42" y="422" width="20" height="20" fill="#1FB6D8"/>
   <rect x="48" y="428" width="8" height="8" fill="#FFFFFF"/>
   <rect x="50" y="414" width="4" height="8" fill="#1FB6D8"/>
-  <text x="72" y="438" font-size="13" font-weight="bold" fill="#FCD34D">GITHUB STATS</text>
-
-  <!-- followers -->
-  <rect x="42" y="456" width="12" height="12" fill="#5FB34A"/>
-  <text x="60" y="466" font-size="11" fill="#A0C0E0">Followers</text>
-  <rect x="132" y="454" width="60" height="16" fill="#2A2A3A" stroke="#4A4A5A" stroke-width="1"/>
-  <text x="162" y="466" text-anchor="middle" font-size="11" font-weight="bold" fill="#FFFFFF" id="followers">IDR</text>
-
-  <!-- stars -->
-  <rect x="220" y="456" width="12" height="12" fill="#FCD34D"/>
-  <text x="238" y="466" font-size="11" fill="#A0C0E0">Total Stars</text>
-  <rect x="328" y="454" width="60" height="16" fill="#2A2A3A" stroke="#4A4A5A" stroke-width="1"/>
-  <text x="358" y="466" text-anchor="middle" font-size="11" font-weight="bold" fill="#FFFFFF" id="stars">IDR</text>
-
-  <!-- streak -->
-  <rect x="416" y="456" width="12" height="12" fill="#C51A4A"/>
-  <text x="434" y="466" font-size="11" fill="#A0C0E0">Streak</text>
-  <rect x="492" y="454" width="100" height="16" fill="#2A2A3A" stroke="#4A4A5A" stroke-width="1"/>
-  <text x="542" y="466" text-anchor="middle" font-size="11" font-weight="bold" fill="#FFFFFF" id="streak">IDR</text>
-
-  <!-- note -->
-  <text x="42" y="496" font-size="9" fill="#6A9EC8">* Data live dari shields.io dan streak-stats.demolab.com</text>
+  <text x="72" y="438" font-size="13" font-weight="bold" fill="#FCD34D">LIVE DATA DARI GITHUB</text>
+  <text x="42" y="468" font-size="9" fill="#6A9EC8">Followers . Stars . Streak  -  otomatis dari shields.io &amp; demolab</text>
 
   <!-- creeper -->
   <g>

@@ -10,7 +10,9 @@
 
 <br>
 
-[![Streak](https://streak-stats.demolab.com/?user=brianatmoko&theme=radical&hide_border=true&background=0D0A2E&stroke=00D2FF&ring=87CEEB&fire=00D2FF&currStreakNum=A0C0E0&sideNums=A0C0E0&currStreakLabel=00D2FF&sideLabels=87CEEB&dates=6A9EC8)](https://streak-stats.demolab.com)
+<a href="https://github.com/brianatmoko?tab=followers"><img src="https://img.shields.io/github/followers/brianatmoko?style=for-the-badge&color=00D2FF&logo=github&label=Followers" alt="Followers"></a>
+<a href="https://github.com/brianatmoko?tab=repositories"><img src="https://img.shields.io/github/stars/brianatmoko?style=for-the-badge&color=00D2FF&logo=github&label=Total%20Stars" alt="Stars"></a>
+<a href="https://streak-stats.demolab.com"><img src="https://streak-stats.demolab.com/?user=brianatmoko&theme=radical&hide_border=true&background=0D0A2E&stroke=00D2FF&ring=87CEEB&fire=00D2FF&currStreakNum=A0C0E0&sideNums=A0C0E0&currStreakLabel=00D2FF&sideLabels=87CEEB&dates=6A9EC8" alt="Streak"></a>
 
 <br>
 
