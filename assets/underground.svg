@@ -29,20 +29,30 @@
   <rect x="0" y="202" width="800" height="18" fill="#FF6F00"/>
   <rect x="0" y="202" width="800" height="6"  fill="#FFD08A"/>
 
-  <!-- Steve mining -->
+  <!-- Alex mining -->
   <g>
-    <rect x="612" y="120" width="32" height="8"  fill="#5E3C1B"/>
-    <rect x="612" y="128" width="32" height="16" fill="#E0B080"/>
-    <rect x="618" y="130" width="20" height="10" fill="#1FB6D8"/>
-    <rect x="614" y="144" width="28" height="24" fill="#F2F4F7"/>
-    <rect x="620" y="148" width="16" height="10" fill="#2E8FB8"/>
-    <rect x="602" y="146" width="10" height="20" fill="#E6E9EE"/>
-    <rect x="642" y="148" width="10" height="20" fill="#E6E9EE"/>
-    <rect x="614" y="168" width="12" height="16" fill="#E6E9EE"/>
-    <rect x="630" y="168" width="12" height="16" fill="#E6E9EE"/>
+    <!-- hair (orange, longer at side) -->
+    <rect x="614" y="120" width="28" height="8"  fill="#D87F33"/>
+    <rect x="638" y="122" width="6"  height="6"  fill="#D87F33"/>
+    <!-- face -->
+    <rect x="614" y="128" width="28" height="14" fill="#D6A47B"/>
+    <rect x="620" y="132" width="4"  height="4"  fill="#3F7F3F"/>
+    <rect x="632" y="132" width="4"  height="4"  fill="#3F7F3F"/>
+    <!-- body (white shirt + green stripe) -->
+    <rect x="616" y="144" width="24" height="22" fill="#F2F4F7"/>
+    <rect x="622" y="148" width="12" height="10" fill="#3F7F3F"/>
+    <!-- arms (short sleeves) -->
+    <rect x="604" y="146" width="10" height="20" fill="#F2F4F7"/>
+    <rect x="642" y="146" width="10" height="20" fill="#F2F4F7"/>
+    <!-- legs (green pants) -->
+    <rect x="616" y="166" width="10" height="14" fill="#3F7F3F"/>
+    <rect x="630" y="166" width="10" height="14" fill="#3F7F3F"/>
+    <!-- shoes -->
+    <rect x="614" y="180" width="12" height="4"  fill="#5E3C1B"/>
+    <rect x="630" y="180" width="12" height="4"  fill="#5E3C1B"/>
     <!-- pickaxe -->
-    <rect x="592" y="138" width="4" height="26" fill="#6E4420"/>
-    <rect x="586" y="134" width="16" height="8" fill="#9AA7B5"/>
+    <rect x="592" y="138" width="4"  height="26" fill="#6E4420"/>
+    <rect x="586" y="134" width="16" height="8"  fill="#9AA7B5"/>
     <!-- block being mined -->
     <rect x="652" y="166" width="20" height="20" fill="#8A8A8A"/>
   </g>
