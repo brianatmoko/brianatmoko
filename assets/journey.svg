@@ -1,14 +1,18 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <!-- angkasa -->
   <rect y="0"   width="800" height="240" fill="#1C1C28"/>
+  <!-- atmosfer transition -->
   <rect y="240" width="800" height="40"  fill="#2E4A6E"/>
-  <rect y="280" width="800" height="160" fill="#88CCEA"/>
-  <rect y="440" width="800" height="80"  fill="#A8D8EF"/>
-  <rect y="520" width="800" height="16"  fill="#5FB34A"/>
-  <rect y="536" width="800" height="64"  fill="#8B5A2B"/>
+  <!-- langit -->
+  <rect y="280" width="800" height="220" fill="#88CCEA"/>
+  <!-- lower sky -->
+  <rect y="500" width="800" height="100" fill="#A8D8EF"/>
 
+  <!-- nametag -->
   <text x="60" y="110" font-size="11" font-weight="bold" fill="#FFFFFF" font-family="monospace">brianatmokoo</text>
   <text x="60" y="109" font-size="11" font-weight="bold" fill="#1C1C28" font-family="monospace">brianatmokoo</text>
 
+  <!-- stars -->
   <g fill="#FFFFFF">
     <rect x="40" y="30" width="2" height="2"/><rect x="90" y="60" width="2" height="2"/>
     <rect x="140" y="20" width="2" height="2"/><rect x="190" y="80" width="2" height="2"/>
@@ -33,11 +37,13 @@
     <rect x="380" y="50" width="3" height="3"/><rect x="650" y="90" width="3" height="3"/>
   </g>
 
+  <!-- moon -->
   <rect x="670" y="30" width="44" height="44" fill="#D9D9D9"/>
   <rect x="682" y="42" width="10" height="10" fill="#B0B0B0"/>
   <rect x="698" y="52" width="8" height="8" fill="#B0B0B0"/>
   <rect x="676" y="48" width="8" height="10" fill="#B8B8B8"/>
 
+  <!-- hot air balloon -->
   <g>
     <rect x="528" y="60" width="16" height="16" fill="#C51A4A"/>
     <rect x="512" y="76" width="16" height="16" fill="#C51A4A"/>
@@ -63,20 +69,36 @@
     <rect x="532" y="148" width="8" height="6" fill="#F2F4F7"/>
   </g>
 
+  <!-- sun -->
   <rect x="120" y="300" width="48" height="48" fill="#FCD34D"/>
   <rect x="132" y="312" width="24" height="24" fill="#FFE9A0"/>
 
+  <!-- clouds -->
   <g fill="#FFFFFF">
-    <rect x="70" y="310" width="16" height="16"/><rect x="86" y="310" width="16" height="16"/><rect x="70" y="326" width="16" height="16"/>
+    <rect x="70"  y="310" width="16" height="16"/><rect x="86" y="310" width="16" height="16"/><rect x="70" y="326" width="16" height="16"/>
     <rect x="200" y="340" width="16" height="16"/><rect x="216" y="340" width="16" height="16"/>
     <rect x="340" y="320" width="16" height="16"/><rect x="356" y="320" width="16" height="16"/>
     <rect x="500" y="330" width="16" height="16"/><rect x="516" y="330" width="16" height="16"/>
     <rect x="610" y="310" width="16" height="16"/><rect x="626" y="310" width="16" height="16"/>
+    <rect x="130" y="400" width="24" height="24"/><rect x="154" y="400" width="24" height="24"/><rect x="130" y="424" width="24" height="24"/>
+    <rect x="580" y="420" width="24" height="24"/><rect x="604" y="420" width="24" height="24"/><rect x="580" y="444" width="24" height="24"/>
+    <rect x="40"  y="520" width="20" height="20"/><rect x="60" y="520" width="20" height="20"/><rect x="40" y="540" width="20" height="20"/>
+    <rect x="700" y="530" width="20" height="20"/><rect x="720" y="530" width="20" height="20"/><rect x="700" y="550" width="20" height="20"/>
   </g>
 
-  <rect x="316" y="546" width="168" height="46" fill="#8B5A2B" stroke="#5E3C1B" stroke-width="4"/>
-  <text x="400" y="576" text-anchor="middle" font-size="18" font-weight="bold" fill="#F2E2BC" font-family="monospace">ABOUT ME</text>
+  <!-- cloud platform for sign -->
+  <rect x="300" y="556" width="200" height="24" fill="#FFFFFF"/>
+  <rect x="280" y="560" width="240" height="20" fill="#FFFFFF"/>
+  <rect x="290" y="566" width="220" height="14" fill="#E8E8E8"/>
 
+  <!-- ABOUT ME sign on cloud -->
+  <rect x="316" y="530" width="168" height="34" fill="#8B5A2B" stroke="#5E3C1B" stroke-width="4"/>
+  <text x="400" y="554" text-anchor="middle" font-size="16" font-weight="bold" fill="#F2E2BC" font-family="monospace">ABOUT ME</text>
+
+  <!-- post into cloud -->
+  <rect x="394" y="564" width="12" height="10" fill="#6E4420"/>
+
+  <!-- border -->
   <rect x="2" y="2" width="796" height="596" fill="none" stroke="#5A5A5A" stroke-width="4"/>
   <rect x="6" y="6" width="788" height="588" fill="none" stroke="#8A8A8A" stroke-width="1" opacity="0.7"/>
 </svg>
