@@ -126,43 +126,43 @@
   <rect x="44" y="236" width="4"  height="8"  fill="#9AA7B5"/>
   <rect x="42" y="232" width="8"  height="6"  fill="#FCD34D"/>
   <text x="78" y="260" font-size="22" font-weight="bold" fill="#FCD34D" font-family="monospace">CORE VALUES</text>
-  <text x="78" y="278" font-size="10" fill="#1FB6D8" font-family="monospace">Ownership . Problem . Doc . Iteration</text>
+  <text x="78" y="278" font-size="10" fill="#1FB6D8" font-family="monospace">Mission . Impact . Open Source . Growth</text>
   <rect x="30" y="290" width="740" height="2" fill="#5A5A5A"/>
 
-  <!-- Slot 1: Full Ownership -->
+  <!-- Slot 1: Open Source -->
   <rect x="30"  y="306" width="360" height="68" fill="#23233A" stroke="#4A4A5A" stroke-width="2"/>
   <rect x="42"  y="322" width="40"  height="38" fill="#FCD34D" stroke="#B89B20" stroke-width="2"/>
   <rect x="50"  y="330" width="24" height="22" fill="#FFFFFF"/>
   <rect x="56"  y="340" width="6"  height="4"  fill="#FCD34D"/>
   <rect x="58"  y="338" width="2"  height="10" fill="#FCD34D"/>
-  <text x="92" y="330" font-size="13" font-weight="bold" fill="#FFFFFF" font-family="monospace">Full Ownership</text>
-  <text x="92" y="348" font-size="10" fill="#A0C0E0" font-family="monospace">Dari transistor ke cloud — setiap layer wajib dipahami</text>
+  <text x="92" y="330" font-size="13" font-weight="bold" fill="#FFFFFF" font-family="monospace">Open Source</text>
+  <text x="92" y="348" font-size="10" fill="#A0C0E0" font-family="monospace">● Membangun &amp; berkontribusi untuk komunitas</text>
 
-  <!-- Slot 2: Problem First -->
+  <!-- Slot 2: Impact -->
   <rect x="410" y="306" width="360" height="68" fill="#23233A" stroke="#4A4A5A" stroke-width="2"/>
   <rect x="422" y="322" width="40"  height="38" fill="#C51A4A" stroke="#8A0A2A" stroke-width="2"/>
   <rect x="430" y="330" width="24" height="22" fill="#FFFFFF"/>
   <rect x="438" y="336" width="8"  height="10" fill="#C51A4A"/>
-  <text x="472" y="330" font-size="13" font-weight="bold" fill="#FFFFFF" font-family="monospace">Problem First</text>
-  <text x="472" y="348" font-size="10" fill="#A0C0E0" font-family="monospace">Setiap project dari masalah nyata di lapangan</text>
+  <text x="472" y="330" font-size="13" font-weight="bold" fill="#FFFFFF" font-family="monospace">Impact</text>
+  <text x="472" y="348" font-size="10" fill="#A0C0E0" font-family="monospace">● Solusi nyata untuk masalah nyata</text>
 
-  <!-- Slot 3: Open Documentation -->
+  <!-- Slot 3: Continuous Learning -->
   <rect x="30"  y="392" width="360" height="68" fill="#23233A" stroke="#4A4A5A" stroke-width="2"/>
   <rect x="42"  y="408" width="40"  height="38" fill="#2E8FB8" stroke="#1E5A7A" stroke-width="2"/>
   <rect x="50"  y="416" width="24" height="22" fill="#FFFFFF"/>
   <rect x="56"  y="422" width="12" height="10" fill="#2E8FB8"/>
   <rect x="62"  y="416" width="4"  height="4"  fill="#2E8FB8"/>
-  <text x="92" y="416" font-size="13" font-weight="bold" fill="#FFFFFF" font-family="monospace">Open Doc</text>
-  <text x="92" y="434" font-size="10" fill="#A0C0E0" font-family="monospace">Semua publik + doc ID biar adik kelas bisa lanjut</text>
+  <text x="92" y="416" font-size="13" font-weight="bold" fill="#FFFFFF" font-family="monospace">Continuous Learning</text>
+  <text x="92" y="434" font-size="10" fill="#A0C0E0" font-family="monospace">● Eksplorasi teknologi baru setiap hari</text>
 
-  <!-- Slot 4: Iterate Fast -->
+  <!-- Slot 4: Build with Purpose -->
   <rect x="410" y="392" width="360" height="68" fill="#23233A" stroke="#4A4A5A" stroke-width="2"/>
   <rect x="422" y="408" width="40"  height="38" fill="#5FB34A" stroke="#3A7A2A" stroke-width="2"/>
   <rect x="430" y="416" width="24" height="22" fill="#FFFFFF"/>
   <rect x="438" y="422" width="8"  height="10" fill="#5FB34A"/>
   <rect x="434" y="430" width="16" height="4" fill="#5FB34A"/>
-  <text x="472" y="416" font-size="13" font-weight="bold" fill="#FFFFFF" font-family="monospace">Iterate Fast</text>
-  <text x="472" y="434" font-size="10" fill="#A0C0E0" font-family="monospace">Proto → Test → Rev → Repeat. PCB Rev.A → Rev.F</text>
+  <text x="472" y="416" font-size="13" font-weight="bold" fill="#FFFFFF" font-family="monospace">Build with Purpose</text>
+  <text x="472" y="434" font-size="10" fill="#A0C0E0" font-family="monospace">● Kode yang bersih, bermakna, scalable</text>
 
   <!-- divider -->
   <rect x="30" y="476" width="740" height="2" fill="#5A5A5A"/>
@@ -175,8 +175,8 @@
   <rect x="56" y="496" width="4"  height="8"  fill="#1FB6D8"/>
   <rect x="54" y="492" width="8"  height="6"  fill="#9AA7B5"/>
   <text x="92" y="512" font-size="13" font-weight="bold" fill="#FCD34D" font-family="monospace">Mission: MOKO-AI</text>
-  <text x="92" y="530" font-size="10" fill="#A0C0E0" font-family="monospace">Bangun AI yang bisa dipelajari, bukan cuma dipakai — open source,</text>
-  <text x="92" y="548" font-size="10" fill="#A0C0E0" font-family="monospace">edge-first, dokumentasi lengkap. Supaya yang lain bisa lanjut.</text>
+  <text x="92" y="530" font-size="10" fill="#A0C0E0" font-family="monospace">◆ Mewujudkan AI yang accessible, on-edge, dan terintegrasi</text>
+  <text x="92" y="548" font-size="10" fill="#A0C0E0" font-family="monospace">◆ Dari angkasa ke inti bumi — perjalanan tanpa batas</text>
 
   <!-- creeper -->
   <g>
