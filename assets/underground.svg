@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600" font-family="'Courier New', monospace">
+  <!-- ===== PERMUKAAN tipis (transisi dari Zona 3) ===== -->
+  <rect x="0" y="0"  width="800" height="16" fill="#5FB34A"/>
+  <rect x="0" y="16" width="800" height="16" fill="#8B5A2B"/>
+
+  <!-- ===== GUA / BAWAH TANAH ===== -->
+  <rect x="0" y="32" width="800" height="188" fill="#23233A"/>
+  <!-- stone bricks texture -->
+  <g fill="#2E2E40">
+    <rect x="40"  y="60"  width="40" height="40"/>
+    <rect x="120" y="100" width="40" height="40"/>
+    <rect x="640" y="70"  width="40" height="40"/>
+    <rect x="710" y="140" width="40" height="40"/>
+    <rect x="200" y="60"  width="40" height="40"/>
+    <rect x="540" y="120" width="40" height="40"/>
+  </g>
+  <!-- ores -->
+  <g>
+    <rect x="60" y="92"  width="12" height="12" fill="#1FB6D8"/><rect x="74" y="104" width="12" height="12" fill="#1FB6D8"/>
+    <rect x="700" y="92" width="12" height="12" fill="#FCD34D"/><rect x="686" y="104" width="12" height="12" fill="#FCD34D"/>
+    <rect x="60" y="150" width="12" height="12" fill="#4A8B3A"/><rect x="74" y="162" width="12" height="12" fill="#4A8B3A"/>
+    <rect x="700" y="160" width="12" height="12" fill="#C51A4A"/><rect x="686" y="172" width="12" height="12" fill="#C51A4A"/>
+    <rect x="120" y="150" width="12" height="12" fill="#B0B0B0"/>
+  </g>
+  <!-- torch -->
+  <rect x="30" y="82" width="6" height="18" fill="#6E4420"/>
+  <rect x="27" y="74" width="12" height="8" fill="#FF6F00"/>
+  <!-- lava -->
+  <rect x="0" y="202" width="800" height="18" fill="#FF6F00"/>
+  <rect x="0" y="202" width="800" height="6"  fill="#FFD08A"/>
+
+  <!-- Steve mining -->
+  <g>
+    <rect x="612" y="120" width="32" height="8"  fill="#5E3C1B"/>
+    <rect x="612" y="128" width="32" height="16" fill="#E0B080"/>
+    <rect x="618" y="130" width="20" height="10" fill="#1FB6D8"/>
+    <rect x="614" y="144" width="28" height="24" fill="#F2F4F7"/>
+    <rect x="620" y="148" width="16" height="10" fill="#2E8FB8"/>
+    <rect x="602" y="146" width="10" height="20" fill="#E6E9EE"/>
+    <rect x="642" y="148" width="10" height="20" fill="#E6E9EE"/>
+    <rect x="614" y="168" width="12" height="16" fill="#E6E9EE"/>
+    <rect x="630" y="168" width="12" height="16" fill="#E6E9EE"/>
+    <!-- pickaxe -->
+    <rect x="592" y="138" width="4" height="26" fill="#6E4420"/>
+    <rect x="586" y="134" width="16" height="8" fill="#9AA7B5"/>
+    <!-- block being mined -->
+    <rect x="652" y="166" width="20" height="20" fill="#8A8A8A"/>
+  </g>
+
+  <!-- sign ZONA 4 -->
+  <rect x="300" y="118" width="200" height="46" fill="#8B5A2B" stroke="#5E3C1B" stroke-width="4"/>
+  <text x="400" y="138" text-anchor="middle" font-size="15" font-weight="bold" fill="#FCD34D">ZONA 4</text>
+  <text x="400" y="156" text-anchor="middle" font-size="10" fill="#1FB6D8" letter-spacing="1">BAWAH TANAH</text>
+
+  <!-- ===== PANEL INFRA MOKO-AI ===== -->
+  <rect x="0"   y="220" width="800" height="380" fill="#1C1C28"/>
+  <rect x="10"  y="230" width="780" height="360" fill="#2A2A3A"/>
+  <rect x="4"   y="224" width="792" height="372" fill="none" stroke="#8A8A8A" stroke-width="4"/>
+  <rect x="9"   y="229" width="782" height="362" fill="none" stroke="#B8B8B8" stroke-width="1" opacity="0.5"/>
+
+  <!-- header (server block) -->
+  <rect x="40" y="250" width="34" height="36" fill="#9AA7B5"/>
+  <rect x="46" y="256" width="22" height="6" fill="#1FB6D8"/>
+  <rect x="46" y="266" width="22" height="6" fill="#5FB34A"/>
+  <rect x="46" y="276" width="22" height="4" fill="#FCD34D"/>
+  <text x="86" y="264" font-size="24" font-weight="bold" fill="#FCD34D">MOKO-AI INFRA</text>
+  <text x="86" y="286" font-size="11" fill="#1FB6D8">Compute . Storage . Edge . Observe</text>
+  <line x1="40" y1="302" x2="760" y2="302" stroke="#8A8A8A" stroke-width="2"/>
+
+  <!-- Slot 1: Compute Grid -->
+  <rect x="40"  y="320" width="350" height="72" fill="#23233A" stroke="#4A4A5A" stroke-width="2"/>
+  <rect x="52"  y="336" width="40"  height="40" fill="#2E8FB8"/>
+  <g fill="#FFFFFF">
+    <rect x="58" y="342" width="28" height="10"/><rect x="58" y="356" width="28" height="6"/><rect x="58" y="366" width="20" height="6"/>
+  </g>
+  <text x="102" y="350" font-size="13" font-weight="bold" fill="#FFFFFF">Compute Grid</text>
+  <text x="102" y="370" font-size="10" fill="#A0C0E0">Klaster GPU untuk training</text>
+
+  <!-- Slot 2: Data Lake -->
+  <rect x="410" y="320" width="350" height="72" fill="#23233A" stroke="#4A4A5A" stroke-width="2"/>
+  <rect x="422" y="336" width="40"  height="40" fill="#1FB6D8"/>
+  <rect x="428" y="342" width="28" height="28" fill="#FFFFFF"/>
+  <rect x="434" y="348" width="16" height="4" fill="#1FB6D8"/><rect x="434" y="356" width="16" height="4" fill="#1FB6D8"/><rect x="434" y="364" width="16" height="4" fill="#1FB6D8"/>
+  <text x="472" y="350" font-size="13" font-weight="bold" fill="#FFFFFF">Data Lake</text>
+  <text x="472" y="370" font-size="10" fill="#A0C0E0">Simpan dataset &amp; log</text>
+
+  <!-- Slot 3: Model Registry -->
+  <rect x="40"  y="410" width="350" height="72" fill="#23233A" stroke="#4A4A5A" stroke-width="2"/>
+  <rect x="52"  y="426" width="40"  height="40" fill="#FCD34D"/>
+  <rect x="60"  y="434" width="24" height="24" fill="#FFFFFF"/>
+  <rect x="66"  y="440" width="12" height="12" fill="#FCD34D"/>
+  <text x="102" y="440" font-size="13" font-weight="bold" fill="#FFFFFF">Model Registry</text>
+  <text x="102" y="460" font-size="10" fill="#A0C0E0">Versi &amp; rilis model</text>
+
+  <!-- Slot 4: Edge Nodes -->
+  <rect x="410" y="410" width="350" height="72" fill="#23233A" stroke="#4A4A5A" stroke-width="2"/>
+  <rect x="422" y="426" width="40"  height="40" fill="#5FB34A"/>
+  <rect x="430" y="432" width="24" height="18" fill="#FFFFFF"/>
+  <rect x="438" y="450" width="8"  height="6"  fill="#FFFFFF"/>
+  <text x="472" y="440" font-size="13" font-weight="bold" fill="#FFFFFF">Edge Nodes</text>
+  <text x="472" y="460" font-size="10" fill="#A0C0E0">Deploy ke perangkat</text>
+
+  <!-- footer: chest + stack -->
+  <rect x="60" y="506" width="60" height="54" fill="#8B5A2B"/>
+  <rect x="60" y="528" width="60" height="10" fill="#5E3C1B"/>
+  <rect x="82" y="520" width="16" height="10" fill="#FCD34D"/>
+  <text x="60" y="578" font-size="10" fill="#87CEEB">MOKO-AI VAULT</text>
+
+  <text x="440" y="524" font-size="11" font-weight="bold" fill="#87CEEB">STACK INFRA</text>
+  <text x="440" y="544" font-size="10" fill="#A0C0E0">Kubernetes . Ray . MinIO</text>
+  <text x="440" y="562" font-size="10" fill="#A0C0E0">Prometheus . Grafana</text>
+
+  <!-- creeper -->
+  <g>
+    <rect x="640" y="500" width="100" height="100" fill="#4A8B3A"/>
+    <rect x="660" y="520" width="18" height="18" fill="#1C1C28"/>
+    <rect x="702" y="520" width="18" height="18" fill="#1C1C28"/>
+    <rect x="672" y="552" width="10" height="10" fill="#1C1C28"/>
+    <rect x="692" y="552" width="10" height="10" fill="#1C1C28"/>
+    <rect x="712" y="552" width="10" height="10" fill="#1C1C28"/>
+    <rect x="682" y="572" width="20" height="10" fill="#1C1C28"/>
+  </g>
+
+  <rect x="2" y="2" width="796" height="596" fill="none" stroke="#5A5A5A" stroke-width="4"/>
+</svg>

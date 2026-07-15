@@ -24,6 +24,11 @@
 
 <br>
 
+<!-- ZONA 4: BAWAH TANAH -->
+<img src="assets/underground.svg" width="800" alt="Zona 4: Bawah Tanah" />
+
+<br>
+
 [![Streak](https://streak-stats.demolab.com/?user=brianatmoko&theme=radical&hide_border=true&background=0D0A2E&stroke=00D2FF&ring=87CEEB&fire=00D2FF&currStreakNum=A0C0E0&sideNums=A0C0E0&currStreakLabel=00D2FF&sideLabels=87CEEB&dates=6A9EC8)](https://streak-stats.demolab.com)
 
 </div>
