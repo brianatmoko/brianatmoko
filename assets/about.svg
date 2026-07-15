@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="440" viewBox="0 0 800 440" font-family="'Courier New', monospace">
+  <defs>
+    <clipPath id="card"><rect x="2" y="2" width="796" height="436" rx="18" ry="18"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#card)">
+    <rect x="2" y="2" width="796" height="436" fill="#0D0A2E"/>
+
+    <!-- subtle pixel grid -->
+    <g stroke="#1A2050" stroke-width="1" opacity="0.6">
+      <line x1="2" y1="80"  x2="798" y2="80"/>
+      <line x1="2" y1="160" x2="798" y2="160"/>
+      <line x1="2" y1="240" x2="798" y2="240"/>
+      <line x1="2" y1="320" x2="798" y2="320"/>
+      <line x1="2" y1="400" x2="798" y2="400"/>
+      <line x1="266" y1="2" x2="266" y2="438"/>
+      <line x1="533" y1="2" x2="533" y2="438"/>
+    </g>
+
+    <text x="400" y="50" text-anchor="middle" font-size="24" font-weight="bold" fill="#FFFFFF">BRIAN ATMOKO</text>
+    <text x="400" y="74" text-anchor="middle" font-size="12" fill="#00D2FF" letter-spacing="2">EMBEDDED &amp; FULLSTACK ENGINEER</text>
+
+    <text x="40" y="120" font-size="14" font-weight="bold" fill="#00D2FF">▌ TENTANG SAYA</text>
+    <text x="40" y="142" font-size="11.5" fill="#B0C8E0">Merancang sistem embedded, firmware, dan perangkat lunak.</text>
+    <text x="40" y="160" font-size="11.5" fill="#B0C8E0">Dari sensor hingga cloud, dari PCB hingga dashboard.</text>
+    <text x="40" y="178" font-size="11.5" fill="#B0C8E0">Lebih dari 8 tahun membangun di setiap lapisan teknologi.</text>
+
+    <text x="40" y="216" font-size="14" font-weight="bold" fill="#87CEEB">▌ SPESIALISASI</text>
+    <text x="40" y="236" font-size="11.5" fill="#A0C0E0">• Drone Systems   • Digital ECU   • Elektronika   • Software</text>
+
+    <text x="40" y="286" font-size="14" font-weight="bold" fill="#87CEEB">▌ BAHASA FAVORIT</text>
+    <rect x="40"  y="296" width="62" height="22" rx="11" fill="#00599C"/><text x="71"  y="311" text-anchor="middle" font-size="10" fill="#FFFFFF">C++</text>
+    <rect x="110" y="296" width="62" height="22" rx="11" fill="#ED8B00"/><text x="141" y="311" text-anchor="middle" font-size="10" fill="#FFFFFF">Java</text>
+    <rect x="180" y="296" width="72" height="22" rx="11" fill="#3776AB"/><text x="216" y="311" text-anchor="middle" font-size="10" fill="#FFFFFF">Python</text>
+
+    <text x="40" y="352" font-size="14" font-weight="bold" fill="#87CEEB">▌ STACK</text>
+    <rect x="40"  y="362" width="74" height="22" rx="11" fill="#03234B"/><text x="77"  y="377" text-anchor="middle" font-size="9" fill="#FFFFFF">STM32</text>
+    <rect x="122" y="362" width="82" height="22" rx="11" fill="#00979D"/><text x="163" y="377" text-anchor="middle" font-size="9" fill="#FFFFFF">Arduino</text>
+    <rect x="212" y="362" width="96" height="22" rx="11" fill="#C51A4A"/><text x="260" y="377" text-anchor="middle" font-size="9" fill="#FFFFFF">Raspberry Pi</text>
+    <rect x="40"  y="392" width="58" height="22" rx="11" fill="#41CD52"/><text x="69"  y="407" text-anchor="middle" font-size="9" fill="#FFFFFF">Qt</text>
+    <rect x="106" y="392" width="96" height="22" rx="11" fill="#FF6F00"/><text x="154" y="407" text-anchor="middle" font-size="9" fill="#FFFFFF">TensorFlow</text>
+
+    <text x="560" y="120" font-size="14" font-weight="bold" fill="#00D2FF">▌ LIVE</text>
+    <text x="560" y="144" font-size="11" fill="#A0C0E0">Avatar, follower,</text>
+    <text x="560" y="160" font-size="11" fill="#A0C0E0">stats &amp; bahasa</text>
+    <text x="560" y="176" font-size="11" fill="#A0C0E0">diambil langsung</text>
+    <text x="560" y="192" font-size="11" fill="#A0C0E0">dari GitHub.</text>
+    <text x="560" y="224" font-size="11" fill="#6A9EC8" opacity="0.8">// data auto-update</text>
+  </g>
+
+  <rect x="2" y="2" width="796" height="436" rx="18" ry="18" fill="none" stroke="#00D2FF" stroke-width="2" opacity="0.8"/>
+</svg>
