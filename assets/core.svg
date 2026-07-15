@@ -35,10 +35,20 @@
     <rect x="266" y="200" width="8"  height="10" fill="#4A3A2A"/>
   </g>
 
-  <!-- sign ZONA 5 -->
-  <rect x="470" y="58" width="220" height="46" fill="#8B5A2B" stroke="#5E3C1B" stroke-width="4"/>
-  <text x="580" y="78" text-anchor="middle" font-size="14" font-weight="bold" fill="#FCD34D" font-family="monospace">ZONA 5</text>
-  <text x="580" y="96" text-anchor="middle" font-size="10" fill="#1FB6D8" font-family="monospace">INTI BUMI</text>
+  <!-- nether portal -->
+  <rect x="470" y="58" width="8" height="80" fill="#1C1C28"/>
+  <rect x="522" y="58" width="8" height="80" fill="#1C1C28"/>
+  <rect x="470" y="58" width="60" height="8" fill="#1C1C28"/>
+  <rect x="470" y="130" width="60" height="8" fill="#1C1C28"/>
+  <rect x="474" y="62" width="52" height="72" fill="#4A0A5A"/>
+  <rect x="478" y="66" width="8" height="8" fill="#C51A4A"/>
+  <rect x="494" y="70" width="8" height="8" fill="#1FB6D8"/>
+  <rect x="510" y="82" width="8" height="8" fill="#C51A4A"/>
+  <rect x="480" y="86" width="8" height="8" fill="#1FB6D8"/>
+  <rect x="506" y="100" width="8" height="8" fill="#C51A4A"/>
+  <rect x="486" y="112" width="8" height="8" fill="#1FB6D8"/>
+  <rect x="502" y="116" width="8" height="8" fill="#C51A4A"/>
+  <rect x="490" y="96" width="8" height="8" fill="#FFFFFF"/>
 
   <!-- ===== PANEL CORE VALUES ===== -->
   <rect x="0"   y="220" width="800" height="380" fill="#1C1C28"/>

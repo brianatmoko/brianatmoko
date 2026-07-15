@@ -54,10 +54,20 @@
     <line x1="376" y1="172" x2="386" y2="172" stroke="#1FB6D8" stroke-width="1"/>
   </g>
 
-  <!-- sign -->
-  <rect x="420" y="156" width="160" height="46" fill="#8B5A2B" stroke="#5E3C1B" stroke-width="4"/>
-  <text x="500" y="176" text-anchor="middle" font-size="14" font-weight="bold" fill="#FCD34D" font-family="monospace">ZONA 3</text>
-  <text x="500" y="194" text-anchor="middle" font-size="10" fill="#1FB6D8" font-family="monospace">PERMUKAAN</text>
+  <!-- house -->
+  <rect x="410" y="128" width="80" height="42" fill="#8B5A2B"/>
+  <rect x="414" y="132" width="10" height="4" fill="#6E4420"/>
+  <rect x="426" y="132" width="10" height="4" fill="#6E4420"/>
+  <rect x="438" y="132" width="10" height="4" fill="#6E4420"/>
+  <rect x="450" y="132" width="10" height="4" fill="#6E4420"/>
+  <rect x="462" y="132" width="10" height="4" fill="#6E4420"/>
+  <rect x="474" y="132" width="10" height="4" fill="#6E4420"/>
+  <rect x="406" y="118" width="88" height="12" fill="#5E3C1B"/>
+  <rect x="412" y="110" width="76" height="8" fill="#4A2E0A"/>
+  <rect x="444" y="148" width="12" height="22" fill="#5E3C1B"/>
+  <rect x="453" y="158" width="2" height="4" fill="#FCD34D"/>
+  <rect x="418" y="138" width="16" height="16" fill="#88CCEA"/>
+  <rect x="470" y="138" width="16" height="16" fill="#88CCEA"/>
 
   <!-- ===== PANEL SKILLS ===== -->
   <rect x="0"   y="220" width="800" height="380" fill="#1C1C28"/>
