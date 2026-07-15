@@ -1,16 +1,16 @@
 <div align="center">
 
-
-
-<!-- ZONA 1 + 2: angkasa -> atmosfer -> sign ABOUT ME -->
+<!-- ZONA 1: angkasa -> atmosfer -->
 <img src="assets/journey.svg" width="800" alt="Journey: angkasa ke atmosfer" />
 
 <br>
 
-<!-- ===== ABOUT ME ZONE: avatar LIVE + badge LIVE (sidebar) | panel ===== -->
-| Profil &amp; Live | Tentang Saya |
-| --- | --- |
-| <img src="https://github.com/brianatmoko.png?size=160" width="110" height="110" alt="Brian Atmoko"><br><br>[![Followers](https://img.shields.io/github/followers/brianatmoko?style=for-the-badge&color=00D2FF&logo=github&label=Followers)](https://github.com/brianatmoko?tab=followers)<br>[![Total Stars](https://img.shields.io/github/stars/brianatmoko?style=for-the-badge&color=00D2FF&logo=github&label=Total%20Stars)](https://github.com/brianatmoko?tab=stars) | <img src="assets/about.svg" width="640" alt="About Me"> |
+<!-- ZONA 2: ABOUT ME -->
+<img src="assets/about.svg" width="800" alt="About Me" />
+
+<br>
+
+[![Streak](https://streak-stats.demolab.com/?user=brianatmoko&theme=radical&hide_border=true&background=0D0A2E&stroke=00D2FF&ring=87CEEB&fire=00D2FF&currStreakNum=A0C0E0&sideNums=A0C0E0&currStreakLabel=00D2FF&sideLabels=87CEEB&dates=6A9EC8)](https://streak-stats.demolab.com)
 
 <br>
 
@@ -26,10 +26,6 @@
 
 <!-- ZONA 5: INTI BUMI -->
 <img src="assets/core.svg" width="800" alt="Zona 5: Inti Bumi" />
-
-<br>
-
-[![Streak](https://streak-stats.demolab.com/?user=brianatmoko&theme=radical&hide_border=true&background=0D0A2E&stroke=00D2FF&ring=87CEEB&fire=00D2FF&currStreakNum=A0C0E0&sideNums=A0C0E0&currStreakLabel=00D2FF&sideLabels=87CEEB&dates=6A9EC8)](https://streak-stats.demolab.com)
 
 </div>
 
