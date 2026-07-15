@@ -1,204 +1,207 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg">
-  <img alt="snake" src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg">
-</picture>
-
-```math
-\newcommand{\text}[1]{\text{#1}}
-\ce{$\Huge\text{Hi there, I'm \textcolor{#00d2ff}{BRIAN ATMOKO}}$}
-\ce{$\Large\text{\textcolor{#888}{\text{Embedded Systems} \cdot \text{Drone Engineer} \cdot \text{Fullstack Developer}}}$}
-```
-
-<br>
-
 <div align="center">
-  <img src="https://img.shields.io/badge/-C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" />
-  <img src="https://img.shields.io/badge/-Java-ED8B00?style=for-the-badge&logo=java&logoColor=white" />
-  <img src="https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/-Embedded_C-A8B9CC?style=for-the-badge&logo=c&logoColor=white" />
-  <img src="https://img.shields.io/badge/-Rust-000000?style=for-the-badge&logo=rust&logoColor=white" />
-  <img src="https://img.shields.io/badge/-JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-  <img src="https://img.shields.io/badge/-Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white" />
-  <img src="https://img.shields.io/badge/-STM32-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white" />
-  <img src="https://img.shields.io/badge/-Raspberry_Pi-C51A4A?style=for-the-badge&logo=raspberry-pi&logoColor=white" />
-  <img src="https://img.shields.io/badge/-Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
-  <img src="https://img.shields.io/badge/-Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/-Qt-41CD52?style=for-the-badge&logo=qt&logoColor=white" />
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=700&color=00D2FF&center=true&vCenter=true&width=600&height=80&lines=Hi+there%2C+I'm+Brian+Atmoko;Embedded+Systems+Engineer;Drone+%26+ECU+Developer;Fullstack+Developer;Welcome+to+my+profile!" alt="Typing SVG" />
+  </a>
+
+  <br><br>
+
+  <a href="https://github.com/brianatmoko">
+    <img src="https://github-stats-alpha.vercel.app/api?username=brianatmoko&cc=0d1117&tc=00d2ff&ic=fff&bc=00d2ff" />
+  </a>
 </div>
 
 <br>
 
 ---
 
-## 🚀 <span style="color:#00d2ff">About Me</span>
+<div align="center">
+  
+  [![](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)](https://isocpp.org/)
+  [![](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](https://java.com/)
+  [![](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org/)
+  [![](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=white)](https://en.cppreference.com/)
+  [![](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)](https://rust-lang.org/)
+  [![](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)](https://kotlinlang.org/)
+
+</div>
+
+---
+
+<br>
+
+## 🚀 About Me
 
 ```cpp
 class BrianAtmoko {
-private:
-    std::string name     = "Brian Atmoko";
-    std::string role     = "Embedded Systems & Fullstack Developer";
-    std::string location = "Indonesia";
-    
-    std::vector<std::string> domains = {
-        "Drone Systems          ✈️",
-        "Digital ECU            🛞",
-        "Embedded Electronics   ⚡",
-        "IoT & Automation       🔧",
-        "Fullstack Development  💻"
-    };
-    
-public:
-    void sayHello() {
-        std::cout << "Building the future, one line of code at a time." << std::endl;
-    } 
+  String name     = "Brian Atmoko";
+  String title    = "Embedded Systems & Fullstack Developer";
+  String location = "Indonesia";
+  
+  String domains[] = {
+    "Drone Systems",     // Flight controller, GCS, autonomous nav
+    "Digital ECU",       // Engine control, CAN bus, sensor fusion
+    "Embedded Systems",  // STM32, ARM, FreeRTOS, IoT
+    "Electronics",       // PCB design, circuit sim, power electronics
+    "Fullstack Dev"      // Cross-platform apps, APIs, desktop GUIs
+  };
+  
+  String favoriteLangs[] = { "C++", "Java", "Python" };
+  
+  void build() {
+    while (true) learn();
+  }
 };
 ```
 
 <br>
 
-## 🛸 <span style="color:#00d2ff">Featured Projects</span>
+---
+
+## ✈️ Featured Projects
 
 <div align="center">
-  <table>
-    <tr>
-      <td width="50%" valign="top">
-        <h3 align="center">✈️ Drone Systems</h3>
-        <p align="center">
-          <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat&logo=c%2B%2B&logoColor=white"/>
-          <img src="https://img.shields.io/badge/STM32-03234B?style=flat&logo=stmicroelectronics&logoColor=white"/>
-          <img src="https://img.shields.io/badge/FreeRTOS-008080?style=flat&logo=freertos&logoColor=white"/>
-        </p>
-        <p align="center">
-          Flight controller firmware, ground control station,<br>
-          autonomous navigation & telemetry systems.
-        </p>
-      </td>
-      <td width="50%" valign="top">
-        <h3 align="center">🛞 Digital ECU</h3>
-        <p align="center">
-          <img src="https://img.shields.io/badge/C-A8B9CC?style=flat&logo=c&logoColor=white"/>
-          <img src="https://img.shields.io/badge/ARM-0091BD?style=flat&logo=arm&logoColor=white"/>
-          <img src="https://img.shields.io/badge/CAN_Bus-000000?style=flat&logo=canbus&logoColor=white"/>
-        </p>
-        <p align="center">
-          Engine control unit firmware, CAN bus communication,<br>
-          real-time sensor fusion & fuel mapping.
-        </p>
-      </td>
-    </tr>
-    <tr>
-      <td width="50%" valign="top">
-        <h3 align="center">⚡ Electronics Lab</h3>
-        <p align="center">
-          <img src="https://img.shields.io/badge/Altium-FF6600?style=flat&logo=altium&logoColor=white"/>
-          <img src="https://img.shields.io/badge/KiCad-314CB0?style=flat&logo=kicad&logoColor=white"/>
-          <img src="https://img.shields.io/badge/SPICE-800000?style=flat&logo=spice&logoColor=white"/>
-        </p>
-        <p align="center">
-          PCB design, circuit simulation, power electronics,<br>
-          signal processing & sensor interface design.
-        </p>
-      </td>
-      <td width="50%" valign="top">
-        <h3 align="center">💻 Software Factory</h3>
-        <p align="center">
-          <img src="https://img.shields.io/badge/Java-ED8B00?style=flat&logo=java&logoColor=white"/>
-          <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white"/>
-          <img src="https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB"/>
-        </p>
-        <p align="center">
-          Cross-platform apps, backend APIs, desktop GUIs,<br>
-          machine learning & data pipelines.
-        </p>
-      </td>
-    </tr>
-  </table>
-</div>
 
-<br>
+### 🛸 Drone Systems
 
-## 🛠️ <span style="color:#00d2ff">Tech Stack</span>
+[![](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)]()
+[![](https://img.shields.io/badge/STM32-03234B?style=flat-square&logo=stmicroelectronics&logoColor=white)]()
+[![](https://img.shields.io/badge/FreeRTOS-008080?style=flat-square&logo=freertos&logoColor=white)]()
 
-<div align="center">
-  <h3>🎯 Core Languages</h3>
-  <img src="https://skillicons.dev/icons?i=cpp,c,java,python,rust,js,ts,kotlin" />
-  
-  <h3>🔩 Embedded & Hardware</h3>
-  <img src="https://skillicons.dev/icons?i=arduino,raspberrypi,cmake,git" />
-  
-  <h3>🌐 Fullstack</h3>
-  <img src="https://skillicons.dev/icons?i=react,vue,django,flask,nodejs,tailwind,postgres,mongodb" />
-  
-  <h3>☁️ DevOps & Tools</h3>
-  <img src="https://skillicons.dev/icons?i=docker,linux,github,grafana,prometheus" />
-</div>
+Flight controller firmware · Ground control station · Autonomous navigation · Telemetry systems
 
-<br>
+---
 
-## 📊 <span style="color:#00d2ff">GitHub Analytics</span>
+### 🛞 Digital ECU
 
-<div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=brianatmoko&show_icons=true&theme=radical&include_all_commits=true&count_private=true&hide_border=true" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=brianatmoko&layout=compact&langs_count=8&theme=radical&hide_border=true" />
-  <br>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=brianatmoko&theme=radical&hide_border=true" />
-</div>
+[![](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=white)]()
+[![](https://img.shields.io/badge/ARM-0091BD?style=flat-square&logo=arm&logoColor=white)]()
+[![](https://img.shields.io/badge/CAN_Bus-000?style=flat-square&logo=canbus&logoColor=white)]()
 
-<br>
+Engine control unit · CAN bus communication · Real-time sensor fusion · Fuel mapping
 
-## 🌌 <span style="color:#00d2ff">3D Contribution Graph</span>
+---
 
-<img src="https://github.com/brianatmoko/brianatmoko/blob/main/profile-3d-contrib/profile-night-rainbow.svg" />
+### ⚡ Electronics Lab
 
-<br>
+[![](https://img.shields.io/badge/Altium-FF6600?style=flat-square&logo=altiumdesigner&logoColor=white)]()
+[![](https://img.shields.io/badge/KiCad-314CB0?style=flat-square&logo=kicad&logoColor=white)]()
+[![](https://img.shields.io/badge/SPICE-800?style=flat-square)]()
+[![](https://img.shields.io/badge/PCB_Design-000?style=flat-square)]()
 
-## 🎯 <span style="color:#00d2ff">Weekly Coding Activity</span>
+PCB design · Circuit simulation · Power electronics · Signal processing · Sensor interfaces
 
-<!--START_SECTION:waka-->
-```text
-C++         ██████████████████░░░░░░░   71.2%
-Python      ██████░░░░░░░░░░░░░░░░░░░   24.1%
-Java        ░░░░░░░░░░░░░░░░░░░░░░░░░    2.3%
-Other       ░░░░░░░░░░░░░░░░░░░░░░░░░    2.4%
-```
-<!--END_SECTION:waka-->
+---
 
-<br>
+### 💻 Software Factory
 
-## 📫 <span style="color:#00d2ff">Let's Connect</span>
+[![](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)]()
+[![](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)]()
+[![](https://img.shields.io/badge/Qt-41CD52?style=flat-square&logo=qt&logoColor=white)]()
+[![](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white)]()
 
-<div align="center">
-  <a href="https://github.com/brianatmoko"><img src="https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
-  <a href="mailto:brianatmoko@email.com"><img src="https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-  <a href="https://linkedin.com/in/brianatmoko"><img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+Desktop GUIs · REST APIs · Cross-platform mobile · Data pipelines · Machine learning
+
 </div>
 
 <br>
 
 ---
 
+## 🛠️ Tech Stack
+
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=brianatmoko&label=Visitors&color=00d2ff&style=flat" />
-  <img src="https://img.shields.io/github/followers/brianatmoko?style=social" />
+
+### Core Languages
+<br>
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=cpp,c,java,python,rust,kotlin,js,ts&perline=8" />
+  </a>
+</p>
+
+### Embedded & Hardware
+<br>
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=arduino,raspberrypi,cmake,git,linux,bash&perline=8" />
+  </a>
+</p>
+
+### Fullstack & DevOps
+<br>
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=react,vue,flutter,nodejs,django,flask,tailwind,postgres,mongodb,docker,grafana,prometheus&perline=8" />
+  </a>
+</p>
+
+</div>
+
+<br>
+
+---
+
+## 📊 GitHub Analytics
+
+<div align="center">
+
+  <a href="https://github.com/anuraghazra/github-readme-stats">
+    <img height=200 src="https://github-readme-stats.vercel.app/api?username=brianatmoko&show_icons=true&theme=radical&include_all_commits=true&count_private=true&hide_border=true" />
+  </a>
+  <a href="https://github.com/anuraghazra/github-readme-stats">
+    <img height=200 src="https://github-readme-stats.vercel.app/api/top-langs/?username=brianatmoko&layout=compact&langs_count=10&theme=radical&hide_border=true&card_width=320" />
+  </a>
+
   <br><br>
-  
-  **🏆 From hardware to cloud — building at every layer of the stack**
+
+  <a href="https://github.com/denvercoder1/github-readme-streak-stats">
+    <img height=200 src="https://github-readme-streak-stats.herokuapp.com/?user=brianatmoko&theme=radical&hide_border=true" />
+  </a>
+  <a href="https://github.com/ryo-ma/github-profile-trophy">
+    <img height=200 src="https://github-profile-trophy.vercel.app/?username=brianatmoko&theme=radical&no-frame=true&row=2&column=3&margin-w=15&margin-h=15" />
+  </a>
+
 </div>
+
+<br>
 
 ---
 
-<details>
-<summary><b>⚡ Click for Easter Egg</b></summary>
+## 🐍 Contribution Snake
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/platane/snk/raw/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github.com/platane/snk/raw/output/github-contribution-grid-snake.svg" />
+    <img alt="github-snake" src="https://github.com/platane/snk/raw/output/github-contribution-grid-snake.svg" />
+  </picture>
+</div>
+
 <br>
 
-```python
-while not finished:
-    if inspired:
-        build_something_awesome()
-        learned += 1
-    else:
-        learn_something_new()
-```
+---
 
-</details>
+## 📫 Let's Connect
+
+<div align="center">
+  <br>
+  <a href="https://github.com/brianatmoko">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+  <a href="mailto:brianatmoko@email.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+  <a href="https://linkedin.com/in/brianatmoko">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <br><br>
+  <a href="https://github.com/brianatmoko">
+    <img src="https://komarev.com/ghpvc/?username=brianatmoko&label=Profile%20Visitors&color=00d2ff&style=for-the-badge" />
+  </a>
+  <a href="https://github.com/brianatmoko?tab=followers">
+    <img src="https://img.shields.io/github/followers/brianatmoko?style=for-the-badge&logo=github&label=Followers" />
+  </a>
+  <br><br>
+
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,3,4,6&height=100&section=footer&text=From%20hardware%20to%20cloud%20%E2%80%94%20building%20at%20every%20layer&fontSize=18&fontAlignY=70" />
+</div>
