@@ -139,41 +139,41 @@
   <rect x="44" y="236" width="4"  height="8"  fill="#9AA7B5"/>
   <rect x="42" y="232" width="8"  height="6"  fill="#FCD34D"/>
   <text x="78" y="260" font-size="22" font-weight="bold" fill="#FCD34D" font-family="monospace">SYSTEM DESIGN</text>
-  <text x="78" y="278" font-size="10" fill="#1FB6D8" font-family="monospace">Architecture . Infra . Data . Deployment</text>
+  <text x="78" y="278" font-size="10" fill="#1FB6D8" font-family="monospace">Arch Pattern . Comms . Storage . Debug</text>
   <rect x="30" y="290" width="740" height="2" fill="#5A5A5A"/>
 
-  <!-- Slot 1: Architecture -->
+  <!-- Slot 1: Architecture Pattern -->
   <rect x="30"  y="306" width="360" height="68" fill="#23233A" stroke="#4A4A5A" stroke-width="2"/>
   <rect x="42"  y="322" width="40"  height="38" fill="#2E8FB8" stroke="#1E5A7A" stroke-width="2"/>
   <rect x="50"  y="330" width="24" height="22" fill="#FFFFFF"/>
   <rect x="56"  y="336" width="12" height="10" fill="#2E8FB8"/>
-  <text x="92" y="330" font-size="13" font-weight="bold" fill="#FFFFFF" font-family="monospace">Architecture</text>
-  <text x="92" y="348" font-size="10" fill="#A0C0E0" font-family="monospace">Event-driven  Microservices  Edge</text>
+  <text x="92" y="330" font-size="13" font-weight="bold" fill="#FFFFFF" font-family="monospace">Architecture Pattern</text>
+  <text x="92" y="348" font-size="10" fill="#A0C0E0" font-family="monospace">Event-Driven  State Machine  RTOS  DMA</text>
 
-  <!-- Slot 2: Infrastructure -->
+  <!-- Slot 2: Communication -->
   <rect x="410" y="306" width="360" height="68" fill="#23233A" stroke="#4A4A5A" stroke-width="2"/>
   <rect x="422" y="322" width="40"  height="38" fill="#FF6F00" stroke="#B84A00" stroke-width="2"/>
   <rect x="430" y="330" width="24" height="22" fill="#FFFFFF"/>
   <rect x="438" y="338" width="8"  height="6"  fill="#FF6F00"/>
-  <text x="472" y="330" font-size="13" font-weight="bold" fill="#FFFFFF" font-family="monospace">Infrastructure</text>
-  <text x="472" y="348" font-size="10" fill="#A0C0E0" font-family="monospace">Kubernetes  Docker  MinIO  Ray</text>
+  <text x="472" y="330" font-size="13" font-weight="bold" fill="#FFFFFF" font-family="monospace">Communication</text>
+  <text x="472" y="348" font-size="10" fill="#A0C0E0" font-family="monospace">MQTT  gRPC  WebSocket  CAN/IP</text>
 
-  <!-- Slot 3: Data -->
+  <!-- Slot 3: Storage -->
   <rect x="30"  y="392" width="360" height="68" fill="#23233A" stroke="#4A4A5A" stroke-width="2"/>
   <rect x="42"  y="408" width="40"  height="38" fill="#5FB34A" stroke="#3A7A2A" stroke-width="2"/>
   <rect x="50"  y="416" width="24" height="22" fill="#FFFFFF"/>
   <rect x="56"  y="422" width="12" height="4" fill="#5FB34A"/>
   <rect x="56"  y="430" width="12" height="4" fill="#5FB34A"/>
-  <text x="92" y="416" font-size="13" font-weight="bold" fill="#FFFFFF" font-family="monospace">Data &amp; Storage</text>
-  <text x="92" y="434" font-size="10" fill="#A0C0E0" font-family="monospace">Stream processing  Data Lake  SQL/NoSQL</text>
+  <text x="92" y="416" font-size="13" font-weight="bold" fill="#FFFFFF" font-family="monospace">Storage</text>
+  <text x="92" y="434" font-size="10" fill="#A0C0E0" font-family="monospace">SQLite  InfluxDB  Redis  MinIO/S3</text>
 
-  <!-- Slot 4: Observability -->
+  <!-- Slot 4: Monitoring & Debug -->
   <rect x="410" y="392" width="360" height="68" fill="#23233A" stroke="#4A4A5A" stroke-width="2"/>
   <rect x="422" y="408" width="40"  height="38" fill="#C51A4A" stroke="#8A0A2A" stroke-width="2"/>
   <rect x="430" y="416" width="8"  height="22" fill="#FFFFFF"/><rect x="440" y="416" width="8" height="8" fill="#FFFFFF"/>
   <rect x="440" y="428" width="12" height="4" fill="#C51A4A"/>
-  <text x="472" y="416" font-size="13" font-weight="bold" fill="#FFFFFF" font-family="monospace">Observability</text>
-  <text x="472" y="434" font-size="10" fill="#A0C0E0" font-family="monospace">Prometheus  Grafana  Logging</text>
+  <text x="472" y="416" font-size="13" font-weight="bold" fill="#FFFFFF" font-family="monospace">Monitoring &amp; Debug</text>
+  <text x="472" y="434" font-size="10" fill="#A0C0E0" font-family="monospace">Segger RTT  Wireshark  Grafana  Logs</text>
 
   <!-- divider -->
   <rect x="30" y="476" width="740" height="2" fill="#5A5A5A"/>
@@ -185,9 +185,9 @@
   <rect x="48" y="512" width="28" height="10" fill="#FFFFFF"/>
   <rect x="56" y="496" width="4"  height="8"  fill="#1FB6D8"/>
   <rect x="54" y="492" width="8"  height="6"  fill="#9AA7B5"/>
-  <text x="92" y="512" font-size="13" font-weight="bold" fill="#FCD34D" font-family="monospace">Case Study: MOKO-AI Infrastructure</text>
-  <text x="92" y="530" font-size="10" fill="#A0C0E0" font-family="monospace">Klaster GPU terdistribusi  Pipeline CI/CD otomatis</text>
-  <text x="92" y="548" font-size="10" fill="#A0C0E0" font-family="monospace">Stream data real-time  Observability end-to-end</text>
+  <text x="92" y="512" font-size="13" font-weight="bold" fill="#FCD34D" font-family="monospace">Case Study: Edge AI Pipeline</text>
+  <text x="92" y="530" font-size="10" fill="#A0C0E0" font-family="monospace">STM32 + ESP32 co-processor  CAN bus telemetry  OTA via MQTT</text>
+  <text x="92" y="548" font-size="10" fill="#A0C0E0" font-family="monospace">TFLite Micro inference  &lt;10ms latency  &lt;100mW idle power</text>
 
   <!-- creeper -->
   <g>

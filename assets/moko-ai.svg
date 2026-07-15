@@ -167,38 +167,38 @@
   <rect x="44" y="236" width="4"  height="8"  fill="#9AA7B5"/>
   <rect x="42" y="232" width="8"  height="6"  fill="#FCD34D"/>
   <text x="78" y="260" font-size="22" font-weight="bold" fill="#FCD34D" font-family="monospace">TECH STACK</text>
-  <text x="78" y="278" font-size="10" fill="#1FB6D8" font-family="monospace">Languages . Frameworks . Platforms . Tools</text>
+  <text x="78" y="278" font-size="10" fill="#1FB6D8" font-family="monospace">Embedded . Firmware . Hardware . Systems</text>
   <rect x="30" y="290" width="740" height="2" fill="#5A5A5A"/>
 
-  <!-- row 1: Languages -->
+  <!-- row 1: Core Languages -->
   <rect x="30"  y="306" width="360" height="68" fill="#23233A" stroke="#4A4A5A" stroke-width="2"/>
   <rect x="42"  y="322" width="40"  height="38" fill="#FCD34D" stroke="#B89B20" stroke-width="2"/>
   <rect x="50"  y="334" width="24" height="16" fill="#FFFFFF"/>
-  <text x="92" y="330" font-size="13" font-weight="bold" fill="#FFFFFF" font-family="monospace">Languages</text>
-  <text x="92" y="348" font-size="10" fill="#A0C0E0" font-family="monospace">C++  Java  Python  JS/TS</text>
+  <text x="92" y="330" font-size="13" font-weight="bold" fill="#FFFFFF" font-family="monospace">Core Languages</text>
+  <text x="92" y="348" font-size="10" fill="#A0C0E0" font-family="monospace">C++17 / C23  Python3  Rust  Bash</text>
 
-  <!-- row 1: Frameworks -->
+  <!-- row 1: MCU Families -->
   <rect x="410" y="306" width="360" height="68" fill="#23233A" stroke="#4A4A5A" stroke-width="2"/>
   <rect x="422" y="322" width="40"  height="38" fill="#2E8FB8" stroke="#1E5A7A" stroke-width="2"/>
   <rect x="430" y="330" width="24" height="22" fill="#FFFFFF"/>
   <rect x="436" y="340" width="4"  height="4"  fill="#2E8FB8"/>
-  <text x="472" y="330" font-size="13" font-weight="bold" fill="#FFFFFF" font-family="monospace">Frameworks</text>
-  <text x="472" y="348" font-size="10" fill="#A0C0E0" font-family="monospace">Qt  TensorFlow  ONNX  OpenCV</text>
+  <text x="472" y="330" font-size="13" font-weight="bold" fill="#FFFFFF" font-family="monospace">MCU Families</text>
+  <text x="472" y="348" font-size="10" fill="#A0C0E0" font-family="monospace">STM32H7  ESP32-S3  AVR  RISC-V</text>
 
-  <!-- row 2: Platforms -->
+  <!-- row 2: Buses & Protocols -->
   <rect x="30"  y="392" width="360" height="68" fill="#23233A" stroke="#4A4A5A" stroke-width="2"/>
   <rect x="42"  y="408" width="40"  height="38" fill="#5FB34A" stroke="#3A7A2A" stroke-width="2"/>
   <rect x="50"  y="416" width="12" height="22" fill="#FFFFFF"/><rect x="64" y="416" width="8" height="22" fill="#1C1C28"/>
-  <text x="92" y="416" font-size="13" font-weight="bold" fill="#FFFFFF" font-family="monospace">Platforms</text>
-  <text x="92" y="434" font-size="10" fill="#A0C0E0" font-family="monospace">STM32  Arduino  RPi  Linux</text>
+  <text x="92" y="416" font-size="13" font-weight="bold" fill="#FFFFFF" font-family="monospace">Buses &amp; Protocols</text>
+  <text x="92" y="434" font-size="10" fill="#A0C0E0" font-family="monospace">CAN FD  I2C / SPI  UART  Modbus</text>
 
-  <!-- row 2: Tools -->
+  <!-- row 2: Hardware Toolchain -->
   <rect x="410" y="392" width="360" height="68" fill="#23233A" stroke="#4A4A5A" stroke-width="2"/>
   <rect x="422" y="408" width="40"  height="38" fill="#C51A4A" stroke="#8A0A2A" stroke-width="2"/>
   <rect x="430" y="416" width="8"  height="22" fill="#FFFFFF"/><rect x="440" y="416" width="8" height="6" fill="#FFFFFF"/>
   <rect x="440" y="432" width="16" height="6" fill="#FFFFFF"/>
-  <text x="472" y="416" font-size="13" font-weight="bold" fill="#FFFFFF" font-family="monospace">Tools &amp; DevOps</text>
-  <text x="472" y="434" font-size="10" fill="#A0C0E0" font-family="monospace">Git  Docker  K8s  Prometheus</text>
+  <text x="472" y="416" font-size="13" font-weight="bold" fill="#FFFFFF" font-family="monospace">Hardware Toolchain</text>
+  <text x="472" y="434" font-size="10" fill="#A0C0E0" font-family="monospace">KiCad  Logic Ana  O-Scope  JLCPCB</text>
 
   <!-- divider -->
   <rect x="30" y="476" width="740" height="2" fill="#5A5A5A"/>
@@ -210,9 +210,9 @@
   <rect x="48" y="512" width="28" height="10" fill="#FFFFFF"/>
   <rect x="56" y="496" width="4"  height="8"  fill="#1FB6D8"/>
   <rect x="54" y="492" width="8"  height="6"  fill="#9AA7B5"/>
-  <text x="92" y="512" font-size="13" font-weight="bold" fill="#FCD34D" font-family="monospace">MOKO-AI (Project Flagship)</text>
-  <text x="92" y="530" font-size="10" fill="#A0C0E0" font-family="monospace">AI terintegrasi: computer vision, NLP, autoML, edge inference</text>
-  <text x="92" y="548" font-size="10" fill="#A0C0E0" font-family="monospace">Built with C++, Python, Qt, TensorFlow, ONNX, STM32</text>
+  <text x="92" y="512" font-size="13" font-weight="bold" fill="#FCD34D" font-family="monospace">MOKO-AI (Personal AI Framework)</text>
+  <text x="92" y="530" font-size="10" fill="#A0C0E0" font-family="monospace">Agent-based AI framework untuk embedded &amp; edge — ditulis dari 0</text>
+  <text x="92" y="548" font-size="10" fill="#A0C0E0" font-family="monospace">C++ inference engine, Python tooling, deploy ke STM32 / ESP32</text>
 
   <!-- creeper -->
   <g>
