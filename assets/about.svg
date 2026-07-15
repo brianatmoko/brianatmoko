@@ -34,15 +34,26 @@
   <text x="40" y="136" font-size="11" fill="#87CEEB">Skill, stack, dan statistik live dari</text>
   <text x="40" y="154" font-size="11" fill="#87CEEB">shields.io &amp; GitHub API.</text>
 
-  <!-- creeper -->
+  <!-- creeper: ghost white design -->
   <g>
-    <rect x="470" y="96" width="130" height="130" fill="#4A8B3A" stroke="#3A6E2C" stroke-width="2"/>
-    <rect x="496" y="122" width="22" height="22" fill="#1C1C28"/>
-    <rect x="552" y="122" width="22" height="22" fill="#1C1C28"/>
-    <rect x="508" y="160" width="12" height="12" fill="#1C1C28"/>
-    <rect x="534" y="160" width="12" height="12" fill="#1C1C28"/>
-    <rect x="560" y="160" width="12" height="12" fill="#1C1C28"/>
-    <rect x="520" y="186" width="28" height="14" fill="#1C1C28"/>
+    <rect x="486" y="101" width="99" height="96" fill="#F0F0F0" stroke="#C0C0C0" stroke-width="3"/>
+    <rect x="486" y="101" width="99" height="13" fill="#FFFFFF"/>
+    <rect x="501" y="114" width="68" height="5" fill="#D0D0D0"/>
+    <rect x="496" y="122" width="18" height="18" fill="#1C1C28"/>
+    <rect x="556" y="122" width="18" height="18" fill="#1C1C28"/>
+    <rect x="512" y="145" width="10" height="8" fill="#1C1C28"/>
+    <rect x="525" y="145" width="10" height="8" fill="#1C1C28"/>
+    <rect x="535" y="145" width="10" height="8" fill="#1C1C28"/>
+    <rect x="548" y="145" width="10" height="8" fill="#1C1C28"/>
+    <rect x="509" y="153" width="52" height="8" fill="#D0D0D0"/>
+    <rect x="493" y="197" width="16" height="29" fill="#F0F0F0" stroke="#C0C0C0" stroke-width="1"/>
+    <rect x="514" y="197" width="16" height="29" fill="#F0F0F0" stroke="#C0C0C0" stroke-width="1"/>
+    <rect x="540" y="197" width="16" height="29" fill="#F0F0F0" stroke="#C0C0C0" stroke-width="1"/>
+    <rect x="561" y="197" width="16" height="29" fill="#F0F0F0" stroke="#C0C0C0" stroke-width="1"/>
+    <rect x="495" y="223" width="13" height="5" fill="#B0B0B0"/>
+    <rect x="516" y="223" width="13" height="5" fill="#B0B0B0"/>
+    <rect x="542" y="223" width="13" height="5" fill="#B0B0B0"/>
+    <rect x="562" y="223" width="13" height="5" fill="#B0B0B0"/>
   </g>
 
   <!-- XP bar -->

@@ -216,24 +216,24 @@
 
   <!-- creeper: redesigned closer to Minecraft original -->
   <g>
-    <rect x="662" y="500" width="76" height="74" fill="#4A8B3A" stroke="#3A6E2C" stroke-width="2"/>
-    <rect x="662" y="500" width="76" height="10" fill="#5AA04A"/>
-    <rect x="674" y="510" width="52" height="4" fill="#3A6E2C"/>
+    <rect x="662" y="500" width="76" height="74" fill="#F0F0F0" stroke="#C0C0C0" stroke-width="2"/>
+    <rect x="662" y="500" width="76" height="10" fill="#FFFFFF"/>
+    <rect x="674" y="510" width="52" height="4" fill="#D0D0D0"/>
     <rect x="670" y="516" width="14" height="14" fill="#1C1C28"/>
     <rect x="716" y="516" width="14" height="14" fill="#1C1C28"/>
     <rect x="682" y="534" width="8" height="6" fill="#1C1C28"/>
     <rect x="692" y="534" width="8" height="6" fill="#1C1C28"/>
     <rect x="700" y="534" width="8" height="6" fill="#1C1C28"/>
     <rect x="710" y="534" width="8" height="6" fill="#1C1C28"/>
-    <rect x="680" y="540" width="40" height="6" fill="#3A6E2C"/>
-    <rect x="668" y="574" width="12" height="22" fill="#4A8B3A" stroke="#3A6E2C" stroke-width="1"/>
-    <rect x="684" y="574" width="12" height="22" fill="#4A8B3A" stroke="#3A6E2C" stroke-width="1"/>
-    <rect x="704" y="574" width="12" height="22" fill="#4A8B3A" stroke="#3A6E2C" stroke-width="1"/>
-    <rect x="720" y="574" width="12" height="22" fill="#4A8B3A" stroke="#3A6E2C" stroke-width="1"/>
-    <rect x="669" y="594" width="10" height="4" fill="#3A6E2C"/>
-    <rect x="685" y="594" width="10" height="4" fill="#3A6E2C"/>
-    <rect x="705" y="594" width="10" height="4" fill="#3A6E2C"/>
-    <rect x="721" y="594" width="10" height="4" fill="#3A6E2C"/>
+    <rect x="680" y="540" width="40" height="6" fill="#D0D0D0"/>
+    <rect x="668" y="574" width="12" height="22" fill="#F0F0F0" stroke="#C0C0C0" stroke-width="1"/>
+    <rect x="684" y="574" width="12" height="22" fill="#F0F0F0" stroke="#C0C0C0" stroke-width="1"/>
+    <rect x="704" y="574" width="12" height="22" fill="#F0F0F0" stroke="#C0C0C0" stroke-width="1"/>
+    <rect x="720" y="574" width="12" height="22" fill="#F0F0F0" stroke="#C0C0C0" stroke-width="1"/>
+    <rect x="669" y="594" width="10" height="4" fill="#B0B0B0"/>
+    <rect x="685" y="594" width="10" height="4" fill="#B0B0B0"/>
+    <rect x="705" y="594" width="10" height="4" fill="#B0B0B0"/>
+    <rect x="721" y="594" width="10" height="4" fill="#B0B0B0"/>
   </g>
 
   <!-- outer border -->
