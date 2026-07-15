@@ -13,7 +13,7 @@
 
 <!-- Typing Animation -->
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=500&color=00D2FF&center=true&vCenter=true&multiline=true&width=700&height=80&lines=Halo%2C+dunia+bawah+tanah!;Saya+Brian+Atmoko+—+Embedded+Systems+Engineer;Mari+jelajah+dari+angkasa+ke+inti+bumi" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?lines=Halo,+dunia+bawah+tanah!;Saya+Brian+Atmoko;Embedded+Systems+Engineer;Mari+jelajah+dari+angkasa&font=Fira+Code&weight=600&size=22&duration=3000&pause=500&color=00D2FF&center=true&vCenter=true&width=700&height=80" alt="Typing SVG" />
 </a>
 
 <br><br>
