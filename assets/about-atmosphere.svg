@@ -1,234 +1,195 @@
-<svg width="800" height="420" viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg">
+<svg width="800" height="400" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="skyGrad" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#2D4A7A"/>
-      <stop offset="30%" stop-color="#4A7AB5"/>
-      <stop offset="60%" stop-color="#87CEEB"/>
-      <stop offset="100%" stop-color="#B0D8F0"/>
+      <stop offset="0%" stop-color="#1E2466"/>
+      <stop offset="35%" stop-color="#3A5A9A"/>
+      <stop offset="65%" stop-color="#6A9EC8"/>
+      <stop offset="100%" stop-color="#A0D8EF"/>
     </linearGradient>
-    <linearGradient id="islandDirt" x1="0" y1="0" x2="0" y2="1">
+    <linearGradient id="islandGrass" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="#7BBC5B"/>
       <stop offset="15%" stop-color="#6BA33A"/>
-      <stop offset="20%" stop-color="#8B6B3D"/>
-      <stop offset="100%" stop-color="#6B4F2A"/>
+      <stop offset="25%" stop-color="#8B6B3D"/>
+      <stop offset="100%" stop-color="#5A3D1A"/>
     </linearGradient>
     <linearGradient id="cardBg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="rgba(15,25,60,0.7)"/>
-      <stop offset="100%" stop-color="rgba(10,18,45,0.85)"/>
+      <stop offset="0%" stop-color="#0F193C" stop-opacity="0.75"/>
+      <stop offset="100%" stop-color="#0A122D" stop-opacity="0.9"/>
     </linearGradient>
-    <linearGradient id="sunGlow" x1="0.5" y1="0" x2="0.5" y2="1">
-      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.12"/>
-      <stop offset="50%" stop-color="#FFE87C" stop-opacity="0.04"/>
-      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    <linearGradient id="cardAccent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00D2FF"/>
+      <stop offset="50%" stop-color="#0088CC"/>
+      <stop offset="100%" stop-color="#00D2FF"/>
     </linearGradient>
-    <filter id="cardShadow">
-      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#000" flood-opacity="0.3"/>
-    </filter>
-    <clipPath id="cardClip">
-      <rect x="150" y="100" width="500" height="200" rx="12"/>
-    </clipPath>
   </defs>
 
-  <!-- Sky background -->
-  <rect width="800" height="420" fill="url(#skyGrad)"/>
+  <!-- SKY -->
+  <rect width="800" height="400" fill="url(#skyGrad)"/>
 
-  <!-- Sun glow -->
-  <ellipse cx="400" cy="0" rx="350" ry="120" fill="url(#sunGlow)"/>
+  <!-- SUNRISE GLOW -->
+  <ellipse cx="400" cy="40" rx="200" ry="60" fill="#FFFFFF" opacity="0.06"/>
+  <ellipse cx="400" cy="40" rx="120" ry="30" fill="#FFE87C" opacity="0.04"/>
 
-  <!-- Distant thin clouds -->
-  <g fill="none" stroke="#FFFFFF" stroke-width="1" opacity="0.15">
-    <path d="M -20,50 Q 30,44 80,48 Q 130,42 180,46 Q 230,40 280,44"/>
-    <path d="M 350,55 Q 400,49 450,53 Q 500,47 550,51 Q 600,45 650,49"/>
-    <path d="M 500,45 Q 550,39 600,43 Q 650,37 700,41 Q 750,35 820,39"/>
+  <!-- HIGH CLOUDS -->
+  <g fill="none" stroke="#FFFFFF" stroke-width="1.2" stroke-linecap="round" opacity="0.12">
+    <path d="M -10,50 Q 30,44 80,48 Q 130,42 180,46 Q 230,40 280,44 Q 330,38 380,42"/>
+    <path d="M 300,60 Q 350,54 400,58 Q 450,52 500,56 Q 550,50 600,54 Q 650,48 700,52"/>
+    <path d="M 500,45 Q 550,39 600,43 Q 650,37 700,41 Q 750,35 810,39"/>
   </g>
 
-  <!-- Cloud layer 1 (upper) -->
-  <g fill="#FFFFFF" opacity="0.1">
-    <ellipse cx="100" cy="70" rx="120" ry="14"/>
-    <ellipse cx="400" cy="65" rx="150" ry="16"/>
-    <ellipse cx="700" cy="72" rx="110" ry="12"/>
+  <!-- MID CLOUDS -->
+  <g fill="#FFFFFF">
+    <ellipse cx="120" cy="100" rx="130" ry="18" opacity="0.08"/>
+    <ellipse cx="400" cy="95" rx="160" ry="20" opacity="0.1"/>
+    <ellipse cx="680" cy="105" rx="120" ry="16" opacity="0.08"/>
   </g>
 
-  <!-- Cloud layer 2 -->
-  <g fill="#FFFFFF" opacity="0.15">
-    <ellipse cx="150" cy="100" rx="100" ry="12"/>
-    <ellipse cx="500" cy="105" rx="130" ry="14"/>
-    <ellipse cx="750" cy="98" rx="90" ry="10"/>
+  <!-- LOW CLOUDS (behind island) -->
+  <g fill="#FFFFFF">
+    <ellipse cx="160" cy="165" rx="140" ry="22" opacity="0.15"/>
+    <ellipse cx="640" cy="170" rx="150" ry="20" opacity="0.13"/>
   </g>
 
-  <!-- Cloud layer 3 (behind island) -->
-  <g fill="#FFFFFF" opacity="0.2">
-    <ellipse cx="200" cy="140" rx="140" ry="18"/>
-    <ellipse cx="600" cy="145" rx="160" ry="20"/>
+  <!-- CLOUDS BELOW ISLAND -->
+  <g fill="#FFFFFF">
+    <ellipse cx="80" cy="260" rx="140" ry="20" opacity="0.2"/>
+    <ellipse cx="300" cy="270" rx="120" ry="16" opacity="0.15"/>
+    <ellipse cx="550" cy="265" rx="150" ry="22" opacity="0.18"/>
+    <ellipse cx="750" cy="255" rx="110" ry="14" opacity="0.15"/>
+    <ellipse cx="200" cy="290" rx="100" ry="10" opacity="0.1"/>
+    <ellipse cx="600" cy="285" rx="120" ry="12" opacity="0.12"/>
   </g>
 
-  <!-- Clouds below the island -->
-  <g fill="#FFFFFF" opacity="0.3">
-    <ellipse cx="100" cy="200" rx="130" ry="16"/>
-    <ellipse cx="350" cy="210" rx="120" ry="14"/>
-    <ellipse cx="600" cy="205" rx="140" ry="18"/>
-    <ellipse cx="780" cy="195" rx="100" ry="12"/>
-  </g>
+  <!-- FLOATING ISLAND -->
+  <g transform="translate(400, 310)">
+    <!-- Island body (dirt + stone cone) -->
+    <path d="M -90,-15 Q -100,20 -85,55 Q -70,85 -40,100 Q -10,110 20,105 Q 60,95 85,70 Q 105,40 95,0 Q 90,-10 80,-15 Z" fill="url(#islandGrass)"/>
 
-  <g fill="#FFFFFF" opacity="0.18">
-    <ellipse cx="250" cy="225" rx="100" ry="10"/>
-    <ellipse cx="550" cy="220" rx="110" ry="12"/>
-  </g>
+    <!-- Dirt texture bands -->
+    <path d="M -80,15 Q -40,20 0,18 Q 40,15 80,20" fill="none" stroke="#6B4F2A" stroke-width="1.5" opacity="0.3"/>
+    <path d="M -75,30 Q -35,35 5,32 Q 45,28 75,33" fill="none" stroke="#6B4F2A" stroke-width="1.5" opacity="0.3"/>
+    <path d="M -65,48 Q -25,52 15,48 Q 55,44 65,50" fill="none" stroke="#6B4F2A" stroke-width="1.5" opacity="0.25"/>
+    <path d="M -50,65 Q -15,68 20,65 Q 50,62 55,67" fill="none" stroke="#6B4F2A" stroke-width="1.5" opacity="0.2"/>
 
-  <!-- Floating Island -->
-  <g transform="translate(110, 250)">
-    <!-- Island bottom (dirt + stone) -->
-    <path d="M 0,20 Q -10,10 -15,0 Q -30,40 -25,70 Q -20,90 -10,100 Q 0,110 20,115 Q 50,120 80,115 Q 110,105 120,90 Q 130,70 125,50 Q 120,30 110,20 Q 100,5 90,0 Z" fill="url(#islandDirt)"/>
-
-    <!-- Dirt texture lines -->
-    <g stroke="#7A5D32" stroke-width="0.8" opacity="0.4" fill="none">
-      <path d="M -20,40 Q 0,45 20,42"/>
-      <path d="M -15,55 Q 10,58 35,53"/>
-      <path d="M -5,70 Q 20,73 50,68"/>
-      <path d="M 10,85 Q 40,88 70,83"/>
-      <path d="M 30,98 Q 55,101 80,96"/>
-    </g>
-
-    <!-- Stone spots -->
-    <g fill="#909090" opacity="0.3">
-      <circle cx="-5" cy="65" r="4"/>
-      <circle cx="35" cy="80" r="5"/>
-      <circle cx="70" cy="72" r="3.5"/>
-      <circle cx="15" cy="95" r="4.5"/>
-      <circle cx="90" cy="55" r="3"/>
-    </g>
+    <!-- Stone details -->
+    <rect x="-30" y="40" width="8" height="6" rx="1" fill="#808080" opacity="0.25"/>
+    <rect x="25" y="55" width="10" height="7" rx="1" fill="#808080" opacity="0.2"/>
+    <rect x="-50" y="58" width="6" height="5" rx="1" fill="#808080" opacity="0.2"/>
+    <rect x="50" y="42" width="7" height="5" rx="1" fill="#808080" opacity="0.15"/>
 
     <!-- Hanging vines -->
-    <g fill="#4A7A22" opacity="0.5">
-      <path d="M -10,100 Q -12,115 -8,130" stroke="#4A7A22" stroke-width="1.5" fill="none"/>
-      <path d="M 30,115 Q 28,130 32,145" stroke="#4A7A22" stroke-width="1.5" fill="none"/>
-      <path d="M 70,112 Q 68,125 72,138" stroke="#4A7A22" stroke-width="1.5" fill="none"/>
-      <path d="M 100,95 Q 98,108 102,120" stroke="#4A7A22" stroke-width="1.5" fill="none"/>
-      <!-- Small leaves on vines -->
-      <ellipse cx="-7" cy="118" rx="2" ry="1.5" fill="#5B8C2A"/>
-      <ellipse cx="33" cy="133" rx="2" ry="1.5" fill="#5B8C2A"/>
-      <ellipse cx="71" cy="126" rx="2" ry="1.5" fill="#5B8C2A"/>
-    </g>
+    <path d="M -60,75 Q -63,95 -57,110" fill="none" stroke="#4A7A22" stroke-width="1.5" opacity="0.4"/>
+    <path d="M -25,98 Q -28,115 -22,128" fill="none" stroke="#4A7A22" stroke-width="1.5" opacity="0.4"/>
+    <path d="M 15,100 Q 12,118 18,130" fill="none" stroke="#4A7A22" stroke-width="1.5" opacity="0.35"/>
+    <path d="M 55,85 Q 52,102 58,115" fill="none" stroke="#4A7A22" stroke-width="1.5" opacity="0.4"/>
+    <path d="M 75,65 Q 73,80 77,92" fill="none" stroke="#4A7A22" stroke-width="1" opacity="0.3"/>
+    <!-- Vine leaves -->
+    <ellipse cx="-59" cy="100" rx="3" ry="2" fill="#5B8C2A" opacity="0.4"/>
+    <ellipse cx="-24" cy="116" rx="3" ry="2" fill="#5B8C2A" opacity="0.35"/>
+    <ellipse cx="17" cy="118" rx="3" ry="2" fill="#5B8C2A" opacity="0.35"/>
+    <ellipse cx="57" cy="105" rx="3" ry="2" fill="#5B8C2A" opacity="0.4"/>
 
-    <!-- Island top (grass surface) -->
-    <ellipse cx="55" cy="0" rx="75" ry="12" fill="#7BBC5B"/>
-    <ellipse cx="55" cy="0" rx="75" ry="12" fill="none" stroke="#6BA33A" stroke-width="1"/>
+    <!-- Grass surface -->
+    <ellipse cx="0" cy="-15" rx="95" ry="18" fill="#7BBC5B"/>
+    <ellipse cx="0" cy="-15" rx="95" ry="18" fill="none" stroke="#6BA33A" stroke-width="1"/>
 
     <!-- Grass blades -->
-    <g stroke="#6BA33A" stroke-width="1" opacity="0.6" fill="none">
-      <line x1="10" y1="-2" x2="8" y2="-8"/>
-      <line x1="20" y1="-3" x2="18" y2="-10"/>
-      <line x1="30" y1="-2" x2="32" y2="-9"/>
-      <line x1="45" y1="-1" x2="43" y2="-7"/>
-      <line x1="60" y1="-2" x2="62" y2="-8"/>
-      <line x1="75" y1="-3" x2="73" y2="-10"/>
-      <line x1="85" y1="-2" x2="87" y2="-7"/>
-      <line x1="95" y1="-1" x2="93" y2="-8"/>
-    </g>
+    <line x1="-70" y1="-18" x2="-72" y2="-28" stroke="#6BA33A" stroke-width="1.2" opacity="0.5"/>
+    <line x1="-50" y1="-20" x2="-52" y2="-30" stroke="#6BA33A" stroke-width="1" opacity="0.5"/>
+    <line x1="-30" y1="-22" x2="-32" y2="-32" stroke="#6BA33A" stroke-width="1.2" opacity="0.5"/>
+    <line x1="-10" y1="-23" x2="-12" y2="-33" stroke="#6BA33A" stroke-width="1" opacity="0.5"/>
+    <line x1="10" y1="-23" x2="8" y2="-33" stroke="#6BA33A" stroke-width="1.2" opacity="0.5"/>
+    <line x1="30" y1="-22" x2="28" y2="-32" stroke="#6BA33A" stroke-width="1" opacity="0.5"/>
+    <line x1="50" y1="-20" x2="48" y2="-30" stroke="#6BA33A" stroke-width="1.2" opacity="0.5"/>
+    <line x1="70" y1="-18" x2="68" y2="-28" stroke="#6BA33A" stroke-width="1" opacity="0.5"/>
 
-    <!-- Small flowers -->
-    <g>
-      <circle cx="15" cy="-4" r="2" fill="#FF6B6B" opacity="0.7"/>
-      <circle cx="15" cy="-4" r="1" fill="#FFD700" opacity="0.5"/>
-      <circle cx="80" cy="-3" r="2" fill="#FFD700" opacity="0.7"/>
-      <circle cx="80" cy="-3" r="1" fill="#FF8C00" opacity="0.5"/>
-      <circle cx="45" cy="-5" r="1.5" fill="#FFFFFF" opacity="0.6"/>
-    </g>
+    <!-- Flowers -->
+    <circle cx="-60" cy="-20" r="2.5" fill="#FF6B6B" opacity="0.6"/>
+    <circle cx="-60" cy="-20" r="1.2" fill="#FFD700" opacity="0.4"/>
+    <circle cx="55" cy="-19" r="2.5" fill="#FFD700" opacity="0.6"/>
+    <circle cx="55" cy="-19" r="1.2" fill="#FF8C00" opacity="0.4"/>
+    <circle cx="-15" cy="-24" r="2" fill="#FFFFFF" opacity="0.5"/>
+    <circle cx="35" cy="-22" r="2" fill="#FF6B6B" opacity="0.5"/>
   </g>
 
-  <!-- Profile Card -->
-  <g transform="translate(400, 190)" filter="url(#cardShadow)">
+  <!-- PROFILE CARD -->
+  <g transform="translate(400, 160)">
     <!-- Card background -->
-    <rect x="-230" y="-70" width="460" height="200" rx="12" fill="url(#cardBg)"/>
-    <rect x="-230" y="-70" width="460" height="200" rx="12" fill="none" stroke="#6A9EC8" stroke-width="1" opacity="0.4"/>
+    <rect x="-240" y="-60" width="480" height="200" rx="14" fill="url(#cardBg)"/>
+    <rect x="-240" y="-60" width="480" height="200" rx="14" fill="none" stroke="#3A5A9A" stroke-width="1.2"/>
 
-    <!-- Card top accent line -->
-    <rect x="-230" y="-70" width="460" height="3" rx="1.5" fill="#00D2FF" opacity="0.6"/>
+    <!-- Top accent glow -->
+    <rect x="-240" y="-60" width="480" height="3" rx="1.5" fill="url(#cardAccent)" opacity="0.8"/>
 
-    <!-- Profile icon (small astronaut helmet icon) -->
-    <g transform="translate(-190, -40)">
-      <circle cx="0" cy="0" r="14" fill="#E8E8E8" stroke="#A0A0A0" stroke-width="1.2"/>
-      <ellipse cx="0" cy="1" rx="9" ry="8" fill="#4A90D9" stroke="#808080" stroke-width="0.6"/>
-      <ellipse cx="-2" cy="-1" rx="3" ry="3.5" fill="#FFFFFF" opacity="0.2"/>
-    </g>
+    <!-- Avatar placeholder (circular) -->
+    <circle cx="205" cy="-20" r="24" fill="#1E2466" stroke="#2D4A7A" stroke-width="1.5"/>
+    <circle cx="205" cy="-20" r="24" fill="none" stroke="#00D2FF" stroke-width="0.5" opacity="0.3"/>
+    <!-- Simple silhouette -->
+    <circle cx="205" cy="-28" r="8" fill="#A0C0E0" opacity="0.6"/>
+    <ellipse cx="205" cy="-12" rx="12" ry="8" fill="#A0C0E0" opacity="0.4"/>
 
     <!-- Name -->
-    <text x="-160" y="-35" font-family="'Courier New',monospace" font-size="22" font-weight="bold" fill="#00D2FF">Brian Atmoko</text>
+    <text x="-220" y="-28" font-family="'Courier New',monospace" font-size="22" font-weight="bold" fill="#00D2FF" letter-spacing="1">Brian Atmoko</text>
 
-    <!-- Title -->
-    <text x="-160" y="-15" font-family="'Courier New',monospace" font-size="11" fill="#A0C0E0" opacity="0.8">Embedded Systems &amp; Fullstack Engineer</text>
+    <!-- Role -->
+    <text x="-220" y="-8" font-family="'Courier New',monospace" font-size="11" fill="#87CEEB">Embedded Systems &amp; Fullstack Engineer</text>
 
     <!-- Location -->
-    <text x="-160" y="0" font-family="'Courier New',monospace" font-size="10" fill="#87CEEB" opacity="0.5">Indonesia</text>
+    <text x="-220" y="6" font-family="'Courier New',monospace" font-size="9" fill="#6A9EC8" opacity="0.6">Indonesia</text>
 
-    <!-- Separator line -->
-    <line x1="-190" y1="12" x2="190" y2="12" stroke="#2D4A7A" stroke-width="0.8"/>
+    <!-- Experience tag -->
+    <rect x="-220" y="15" width="90" height="18" rx="9" fill="#0055AA" opacity="0.3"/>
+    <rect x="-220" y="15" width="90" height="18" rx="9" fill="none" stroke="#00D2FF" stroke-width="0.5" opacity="0.3"/>
+    <text x="-175" y="27" text-anchor="middle" font-family="'Courier New',monospace" font-size="8" fill="#00D2FF" opacity="0.8">8+ Tahun Pengalaman</text>
 
-    <!-- Description -->
-    <text x="-190" y="32" font-family="'Courier New',monospace" font-size="9.5" fill="#B0C8E0">
-      8+ tahun merancang sistem embedded, firmware, dan
+    <!-- Separator -->
+    <line x1="-220" y1="42" x2="220" y2="42" stroke="#2D4A7A" stroke-width="0.8"/>
+
+    <!-- Description line 1 -->
+    <text x="-220" y="58" font-family="'Courier New',monospace" font-size="9.5" fill="#B0C8E0">
+      Merancang sistem embedded, firmware, dan perangkat lunak
     </text>
-    <text x="-190" y="48" font-family="'Courier New',monospace" font-size="9.5" fill="#B0C8E0">
-      perangkat lunak. Dari sensor ke cloud, PCB ke dashboard.
+
+    <!-- Description line 2 -->
+    <text x="-220" y="73" font-family="'Courier New',monospace" font-size="9.5" fill="#B0C8E0">
+      dari sensor hingga cloud, dari PCB hingga dashboard.
     </text>
 
-    <!-- Specializations -->
-    <text x="-190" y="68" font-family="'Courier New',monospace" font-size="10" font-weight="bold" fill="#87CEEB">Spesialisasi:</text>
+    <!-- Specializations label -->
+    <text x="-220" y="92" font-family="'Courier New',monospace" font-size="10" font-weight="bold" fill="#87CEEB">Spesialisasi</text>
 
-    <text x="-185" y="84" font-family="'Courier New',monospace" font-size="9" fill="#A0C0E0">Drone Systems</text>
-    <text x="-100" y="84" font-family="'Courier New',monospace" font-size="9" fill="#6A9EC8">Flight controller, GCS, navigasi otonom</text>
-
-    <text x="-185" y="99" font-family="'Courier New',monospace" font-size="9" fill="#A0C0E0">Digital ECU</text>
-    <text x="-100" y="99" font-family="'Courier New',monospace" font-size="9" fill="#6A9EC8">Engine control, CAN bus, sensor fusion</text>
-
-    <text x="-185" y="114" font-family="'Courier New',monospace" font-size="9" fill="#A0C0E0">Elektronika</text>
-    <text x="-100" y="114" font-family="'Courier New',monospace" font-size="9" fill="#6A9EC8">PCB design, power electronics, signal proc.</text>
-
-    <text x="-185" y="129" font-family="'Courier New',monospace" font-size="9" fill="#A0C0E0">Software</text>
-    <text x="-100" y="129" font-family="'Courier New',monospace" font-size="9" fill="#6A9EC8">Desktop, mobile, API, microservices</text>
-
-    <!-- Favorite languages badges -->
-    <g transform="translate(-190, 145)">
-      <rect x="0" y="-5" width="30" height="16" rx="3" fill="#00599C" opacity="0.8"/>
-      <text x="15" y="6" text-anchor="middle" font-family="'Courier New',monospace" font-size="7" fill="#FFFFFF">C++</text>
-
-      <rect x="35" y="-5" width="30" height="16" rx="3" fill="#ED8B00" opacity="0.8"/>
-      <text x="50" y="6" text-anchor="middle" font-family="'Courier New',monospace" font-size="7" fill="#FFFFFF">Java</text>
-
-      <rect x="70" y="-5" width="30" height="16" rx="3" fill="#3776AB" opacity="0.8"/>
-      <text x="85" y="6" text-anchor="middle" font-family="'Courier New',monospace" font-size="7" fill="#FFFFFF">Python</text>
+    <!-- Spec items -->
+    <g font-family="'Courier New',monospace" font-size="9">
+      <text x="-215" y="107" fill="#A0C0E0">Drone Systems</text>
+      <text x="-110" y="107" fill="#6A9EC8" opacity="0.7">Flight controller, GCS, autonomous nav</text>
+      <text x="-215" y="122" fill="#A0C0E0">Digital ECU</text>
+      <text x="-110" y="122" fill="#6A9EC8" opacity="0.7">Engine control, CAN bus, sensor fusion</text>
+      <text x="-215" y="137" fill="#A0C0E0">Elektronika</text>
+      <text x="-110" y="137" fill="#6A9EC8" opacity="0.7">PCB design, power electronics, signal proc.</text>
     </g>
 
-    <!-- Bottom accent line -->
-    <rect x="-230" y="127" width="460" height="1" opacity="0.15" fill="#6A9EC8"/>
+    <!-- Language badges -->
+    <g transform="translate(-220, 150)">
+      <rect x="0" y="-7" width="34" height="18" rx="4" fill="#00599C"/>
+      <text x="17" y="5" text-anchor="middle" font-family="'Courier New',monospace" font-size="8" font-weight="bold" fill="#FFFFFF">C++</text>
+
+      <rect x="40" y="-7" width="34" height="18" rx="4" fill="#B3470A"/>
+      <text x="57" y="5" text-anchor="middle" font-family="'Courier New',monospace" font-size="8" font-weight="bold" fill="#FFFFFF">Java</text>
+
+      <rect x="80" y="-7" width="38" height="18" rx="4" fill="#306998"/>
+      <text x="99" y="5" text-anchor="middle" font-family="'Courier New',monospace" font-size="8" font-weight="bold" fill="#FFFFFF">Python</text>
+    </g>
 
     <!-- Quote -->
-    <text x="400" y="175" text-anchor="middle" font-family="'Courier New',monospace" font-size="9" fill="#6A9EC8" opacity="0.5" font-style="italic">"Dari hardware ke cloud, bangun di setiap lapisan."</text>
+    <text x="0" y="175" text-anchor="middle" font-family="'Courier New',monospace" font-size="8.5" fill="#6A9EC8" opacity="0.4" font-style="italic">"Dari hardware ke cloud, bangun di setiap lapisan."</text>
   </g>
 
-  <!-- Foreground clouds (passing in front of island edges) -->
-  <g fill="#FFFFFF" opacity="0.18">
-    <ellipse cx="-20" cy="180" rx="80" ry="10"/>
-    <ellipse cx="820" cy="185" rx="70" ry="8"/>
-  </g>
-
-  <!-- Small floating particles -->
-  <g fill="#FFFFFF" opacity="0.15">
-    <circle cx="50" cy="180" r="1"/>
-    <circle cx="180" cy="160" r="0.8"/>
-    <circle cx="320" cy="190" r="1.2"/>
-    <circle cx="500" cy="165" r="0.7"/>
-    <circle cx="650" cy="185" r="0.9"/>
-    <circle cx="750" cy="170" r="1.1"/>
-    <circle cx="280" cy="145" r="0.6"/>
-    <circle cx="580" cy="155" r="0.8"/>
-  </g>
-
-  <!-- Light rays from upper left -->
-  <g stroke="#FFFFFF" stroke-width="0.6" opacity="0.04">
-    <line x1="100" y1="0" x2="-50" y2="420"/>
-    <line x1="150" y1="0" x2="50" y2="420"/>
-    <line x1="200" y1="0" x2="150" y2="420"/>
-    <line x1="250" y1="0" x2="250" y2="420"/>
+  <!-- LIGHT RAYS -->
+  <g stroke="#FFFFFF" stroke-width="0.5" opacity="0.03">
+    <line x1="120" y1="0" x2="-20" y2="400"/>
+    <line x1="180" y1="0" x2="80" y2="400"/>
+    <line x1="240" y1="0" x2="180" y2="400"/>
+    <line x1="300" y1="0" x2="280" y2="400"/>
+    <line x1="360" y1="0" x2="380" y2="400"/>
   </g>
 </svg>
