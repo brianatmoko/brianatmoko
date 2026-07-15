@@ -1,11 +1,6 @@
 <div align="center">
 
-<!-- TYPING ANIMATION -->
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?lines=Halo+dunia+bawah+tanah;Saya+Brian+Atmoko;Embedded+Engineer;Mari+jelajah+angkasa&font=Press+Start+2P&weight=400&size=14&duration=2500&pause=600&color=00D2FF&background=0D0A2E&center=true&vCenter=true&width=720&height=80" alt="Typing SVG" />
-</a>
 
-<br>
 
 <!-- ZONA 1 + 2: angkasa -> atmosfer -> sign ABOUT ME -->
 <img src="assets/journey.svg" width="800" alt="Journey: angkasa ke atmosfer" />
