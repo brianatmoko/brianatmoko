@@ -1,273 +1,187 @@
 <div align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=3500&pause=500&color=00D2FF&center=true&vCenter=true&width=700&height=70&lines=Halo%2C+saya+Brian+Atmoko;Embedded+Systems+Engineer;Spesialis+Drone+%26+Digital+ECU;Founder+MOKO-AI;Dari+hardware+ke+cloud" alt="Typing SVG" />
-  </a>
 
-  <br><br>
+<!-- 🪐 ZONA 1: LUAR ANGKASA ============================================= -->
 
-  <img src="https://github-stats-alpha.vercel.app/api?username=brianatmoko&cc=0d1117&tc=00d2ff&ic=fff&bc=00d2ff" alt="stats" />
-
-  <br><br>
-
-  <a href="https://github.com/brianatmoko?tab=followers">
-    <img src="https://img.shields.io/github/followers/brianatmoko?style=for-the-badge&logo=github&label=Followers" />
-  </a>
-  <img src="https://komarev.com/ghpvc/?username=brianatmoko&label=Pengunjung&color=00d2ff&style=for-the-badge" />
-</div>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D0D2B,50:1A1A4E,100:2D4A7A&height=40&section=header&text=🪐&fontSize=30&fontAlignY=50" />
 
 <br>
 
----
+<!-- SVG SPACE BANNER -->
+<svg width="100%" viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" style="max-width:800px;border-radius:16px;">
+  <defs>
+    <!-- Space gradient -->
+    <linearGradient id="spaceGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="#0a0a2e"/>
+      <stop offset="40%"  stop-color="#141452"/>
+      <stop offset="70%"  stop-color="#1e2466"/>
+      <stop offset="100%" stop-color="#2d3a7a"/>
+    </linearGradient>
 
-## 🧑‍💻 Profil
+    <!-- Star glow filter -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
 
-```cpp
-class BrianAtmoko {
-public:
-    struct Skill {
-        string bidang;
-        vector<string> stack;
-        int tahun_pengalaman;
-    };
+    <!-- Rocket flame gradient -->
+    <linearGradient id="flameGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="#FFD700"/>
+      <stop offset="50%"  stop-color="#FF6B35"/>
+      <stop offset="100%" stop-color="#FF2222" stop-opacity="0"/>
+    </linearGradient>
 
-    string nama       = "Brian Atmoko";
-    string peran      = "Embedded Systems & Fullstack Engineer";
-    string lokasi     = "Indonesia";
-    string motto      = "Dari hardware ke cloud, bangun di setiap lapisan.";
+    <!-- Moon texture gradient -->
+    <radialGradient id="moonGrad" cx="40%" cy="40%">
+      <stop offset="0%"   stop-color="#FFFDE8"/>
+      <stop offset="60%"  stop-color="#F5F0D0"/>
+      <stop offset="100%" stop-color="#E8DCA0"/>
+    </radialGradient>
+  </defs>
 
-    Skill daftar_keahlian[5] = {
-        {"Sistem Drone",         {"C++", "STM32", "FreeRTOS", "GPS/INS", "Telemetry"}, 6},
-        {"Digital ECU",          {"C", "ARM Cortex", "CAN Bus", "Sensor Fusion"},       5},
-        {"Embedded Electronics", {"PCB Design", "Altium", "KiCad", "SPICE"},             8},
-        {"Rekayasa Perangkat",   {"Java", "Python", "React", "Flutter", "Qt"},          7},
-        {"AI & Data",            {"TensorFlow", "PyTorch", "OpenCV", "Pandas"},          3},
-    };
+  <!-- Background -->
+  <rect width="800" height="420" fill="url(#spaceGrad)" rx="16"/>
 
-    string bahasa_favorit[3] = {"C++", "Java", "Python"};
+  <!-- ===== STARS ===== -->
+  <g fill="#ffffff">
+    <circle cx="45"  cy="30"  r="1.8" opacity="0.9"/>
+    <circle cx="120" cy="65"  r="1.2" opacity="0.6"/>
+    <circle cx="200" cy="25"  r="2.0" opacity="0.8" filter="url(#glow)"/>
+    <circle cx="310" cy="50"  r="1.0" opacity="0.5"/>
+    <circle cx="400" cy="35"  r="1.5" opacity="0.7"/>
+    <circle cx="500" cy="60"  r="2.2" opacity="0.9" filter="url(#glow)"/>
+    <circle cx="580" cy="20"  r="1.0" opacity="0.4"/>
+    <circle cx="650" cy="55"  r="1.8" opacity="0.8"/>
+    <circle cx="720" cy="30"  r="1.3" opacity="0.6"/>
+    <circle cx="760" cy="70"  r="2.0" opacity="0.7" filter="url(#glow)"/>
 
-    void berkarya() {
-        while(ada_masalah) selesaikan();
-    }
-};
-```
+    <circle cx="80"  cy="100" r="1.0" opacity="0.4"/>
+    <circle cx="160" cy="90"  r="1.5" opacity="0.7"/>
+    <circle cx="250" cy="110" r="0.8" opacity="0.3"/>
+    <circle cx="340" cy="85"  r="1.2" opacity="0.5"/>
+    <circle cx="460" cy="100" r="1.8" opacity="0.8"/>
+    <circle cx="550" cy="95"  r="1.0" opacity="0.4"/>
+    <circle cx="670" cy="115" r="1.5" opacity="0.6"/>
+    <circle cx="740" cy="90"  r="1.2" opacity="0.5"/>
 
-<br>
+    <!-- Cross stars ✦ -->
+    <g stroke="#ffffff" stroke-width="1.2" opacity="0.7">
+      <line x1="230" y1="48" x2="238" y2="56"/>
+      <line x1="238" y1="48" x2="230" y2="56"/>
+      <line x1="620" y1="40" x2="628" y2="48"/>
+      <line x1="628" y1="40" x2="620" y2="48"/>
+      <line x1="480" y1="128" x2="488" y2="136"/>
+      <line x1="488" y1="128" x2="480" y2="136"/>
+    </g>
+  </g>
 
----
+  <!-- ===== MINECRAFT MOON ===== -->
+  <g transform="translate(620, 80)">
+    <circle cx="0" cy="0" r="50" fill="url(#moonGrad)" stroke="#C8B878" stroke-width="1"/>
+    <!-- Moon craters (pixel style) -->
+    <rect x="-20" y="-25" width="12" height="10" rx="2" fill="#D8CCA0" opacity="0.6"/>
+    <rect x="5"   y="-15" width="8"  height="8"  rx="2" fill="#D8CCA0" opacity="0.5"/>
+    <rect x="-10" y="5"   width="14" height="10" rx="2" fill="#D8CCA0" opacity="0.4"/>
+    <rect x="15"  y="10"  width="6"  height="6"  rx="2" fill="#D8CCA0" opacity="0.5"/>
+    <rect x="-25" y="15"  width="8"  height="6"  rx="2" fill="#D8CCA0" opacity="0.3"/>
+  </g>
 
-## 🚀 Proyek Unggulan
+  <!-- ===== SMALL PLANET ===== -->
+  <g transform="translate(100, 130)">
+    <circle cx="0" cy="0" r="18" fill="#8B5CF6" opacity="0.7"/>
+    <circle cx="0" cy="0" r="18" fill="none" stroke="#A78BFA" stroke-width="1" opacity="0.5"/>
+    <ellipse cx="0" cy="3" rx="20" ry="5" fill="none" stroke="#C4B5FD" stroke-width="0.8" opacity="0.4" transform="rotate(-15)"/>
+  </g>
 
-<div align="center">
+  <!-- ===== ROCKET ===== -->
+  <g transform="translate(340, 160)">
+    <!-- Rocket flame -->
+    <path d="M 0,55 Q -12,75 -8,95 Q 0,105 8,95 Q 12,75 0,55" fill="url(#flameGrad)" opacity="0.9"/>
+    <path d="M 0,55 Q -6,70 -4,85 Q 0,92 4,85 Q 6,70 0,55" fill="#FFE44D" opacity="0.6"/>
 
-### 🧠 MOKO-AI
+    <!-- Fins -->
+    <polygon points="-18,40 -28,55 -18,50" fill="#CC3333" stroke="#991111" stroke-width="1"/>
+    <polygon points="18,40 28,55 18,50" fill="#CC3333" stroke="#991111" stroke-width="1"/>
+    <polygon points="0,45 0,58 -10,55" fill="#AA2222" stroke="#991111" stroke-width="0.5"/>
+    <polygon points="0,45 0,58 10,55" fill="#AA2222" stroke="#991111" stroke-width="0.5"/>
 
-**Proyek super besar — Sistem Kecerdasan Buatan Terintegrasi**
+    <!-- Rocket body -->
+    <rect x="-14" y="5" width="28" height="45" rx="3" fill="#E8E8E8" stroke="#AAAAAA" stroke-width="1"/>
+    <rect x="-14" y="5" width="28" height="45" rx="3" fill="url(#spaceGrad)" opacity="0.15"/>
 
-[![](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)]()
-[![](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)]()
-[![](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)]()
-[![](https://img.shields.io/badge/Edge_AI-000?style=flat-square)]()
-[![](https://img.shields.io/badge/Computer_Vision-000?style=flat-square)]()
+    <!-- Rocket stripes -->
+    <rect x="-14" y="35" width="28" height="6" fill="#DD4444"/>
+    <rect x="-14" y="10" width="28" height="3" fill="#DD4444"/>
 
-```
-MOKO-AI adalah ekosistem AI yang mencakup:
-├── Inference Engine        — Optimasi model untuk edge deployment
-├── Vision Pipeline         — Computer vision real-time (drone, CCTV)
-├── Predictive Analytics    — Prediksi berbasis sensor data
-├── Natural Language        — Asisten cerdas berbahasa Indonesia
-└── AutoML Framework        — Training & deployment otomatis
-```
+    <!-- Nose cone -->
+    <polygon points="0,-30 -14,5 14,5" fill="#E8E8E8" stroke="#AAAAAA" stroke-width="1"/>
+    <polygon points="0,-30 -14,5 14,5" fill="#FF4444" opacity="0.3"/>
 
-*Status: Dalam pengembangan aktif*
+    <!-- Window -->
+    <circle cx="0" cy="18" r="6" fill="#4A90D9" stroke="#AAAAAA" stroke-width="1.5"/>
+    <circle cx="-1" cy="17" r="2" fill="#87CEEB" opacity="0.6"/>
 
-<br>
+    <!-- Window reflection -->
+    <circle cx="-2" cy="16" r="1" fill="white" opacity="0.7"/>
+  </g>
 
----
+  <!-- ===== MAIN TITLE ===== -->
+  <text x="400" y="300" text-anchor="middle" dominant-baseline="middle"
+        font-family="'Courier New', monospace" font-size="36" font-weight="bold"
+        fill="#00D2FF" filter="url(#glow)">
+    BRIAN ATMOKO
+  </text>
 
-### ✈️ Sistem Drone
+  <!-- Subtitle with pixel feel -->
+  <text x="400" y="330" text-anchor="middle" dominant-baseline="middle"
+        font-family="'Courier New', monospace" font-size="16"
+        fill="#87CEEB" opacity="0.9"
+        letter-spacing="4">
+    ★ DARI ANGKASA KE INTI BUMI ★
+  </text>
 
-[![](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)]()
-[![](https://img.shields.io/badge/STM32-03234B?style=flat-square&logo=stmicroelectronics&logoColor=white)]()
-[![](https://img.shields.io/badge/FreeRTOS-008080?style=flat-square&logo=freertos&logoColor=white)]()
-[![](https://img.shields.io/badge/MAVLink-000?style=flat-square)]()
-[![](https://img.shields.io/badge/GPS/INS-000?style=flat-square)]()
+  <!-- Tagline -->
+  <text x="400" y="360" text-anchor="middle" dominant-baseline="middle"
+        font-family="'Courier New', monospace" font-size="12"
+        fill="#A0C0E0" opacity="0.7"
+        letter-spacing="2">
+    Embedded Systems  •  AI  •  Fullstack
+  </text>
 
-```
-Firmware flight controller │ Ground Control Station │ Navigasi otonom
-Sensor fusion (IMU+GPS+Baro) │ Telemetry 900MHz/2.4GHz │ Waypoint mission
-```
-
-<br>
-
----
-
-### 🛞 Digital ECU
-
-[![](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=white)]()
-[![](https://img.shields.io/badge/ARM_Cortex-0091BD?style=flat-square&logo=arm&logoColor=white)]()
-[![](https://img.shields.io/badge/CAN_Bus-000?style=flat-square)]()
-[![](https://img.shields.io/badge/ISO_26262-000?style=flat-square)]()
-
-```
-Engine control firmware │ CAN bus communication stack
-Real-time sensor fusion │ Fuel injection mapping │ OBD-II diagnostics
-```
-
-<br>
-
----
-
-### ⚡ Rekayasa Elektronika
-
-[![](https://img.shields.io/badge/Altium-FF6600?style=flat-square&logo=altiumdesigner&logoColor=white)]()
-[![](https://img.shields.io/badge/KiCad-314CB0?style=flat-square&logo=kicad&logoColor=white)]()
-[![](https://img.shields.io/badge/LTSpice-000?style=flat-square)]()
-[![](https://img.shields.io/badge/PCB_Design-000?style=flat-square)]()
-
-```
-Desain PCB multilayer │ Simulasi rangkaian │ Power electronics
-Signal integrity │ Sensor interface │ EMC/EMI compliance
-```
-
-<br>
-
----
-
-### 💻 Rekayasa Perangkat Lunak
-
-[![](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)]()
-[![](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)]()
-[![](https://img.shields.io/badge/Qt-41CD52?style=flat-square&logo=qt&logoColor=white)]()
-[![](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white)]()
-[![](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)]()
-
-```
-Aplikasi desktop │ REST API │ Mobile cross-platform │ CI/CD pipeline
-Microservices │ Database design │ Cloud deployment │ Monitoring
-```
-
-</div>
-
-<br>
-
----
-
-## 🛠️ Tumpukan Teknologi
-
-<div align="center">
-
-### Bahasa Pemrograman
-
-<p>
-  <img src="https://skillicons.dev/icons?i=cpp,c,java,python,rust,kotlin,js,ts&perline=8" />
-</p>
-
-### Embedded & Hardware
-
-<p>
-  <img src="https://skillicons.dev/icons?i=arduino,raspberrypi,cmake,git,linux,bash&perline=8" />
-</p>
-
-### Web, Mobile & Desktop
-
-<p>
-  <img src="https://skillicons.dev/icons?i=react,vue,flutter,nodejs,django,flask,tailwind,qt&perline=8" />
-</p>
-
-### Database, DevOps & AI
-
-<p>
-  <img src="https://skillicons.dev/icons?i=postgres,mongodb,redis,docker,grafana,prometheus,tensorflow&perline=8" />
-</p>
-
-</div>
+  <!-- Small decorative stars near title -->
+  <g fill="#FFD700" opacity="0.6">
+    <polygon points="150,290 153,296 160,296 155,300 157,307 150,303 143,307 145,300 140,296 147,296" transform="scale(0.6) translate(250,200)"/>
+    <polygon points="150,290 153,296 160,296 155,300 157,307 150,303 143,307 145,300 140,296 147,296" transform="scale(0.4) translate(1400,480)"/>
+  </g>
+</svg>
 
 <br>
 
----
-
-## 🔄 Alur Kerja
-
-```mermaid
-graph LR
-    A[Analisis Kebutuhan] --> B[Desain Sistem]
-    B --> C[Prototyping]
-    C --> D[Implementasi HW/SW]
-    D --> E[Pengujian]
-    E --> F{Qualified?}
-    F -->|Ya| G[Deploy]
-    F -->|Tidak| C
-    G --> H[Monitoring]
-    H --> I[Iterasi]
-    I --> B
-```
-
-| Fase | Tools | Output |
-|------|-------|--------|
-| **Analisis** | Notion, Draw.io | Spesifikasi teknis |
-| **Desain** | Altium, KiCad, Figma | Skematik, layout PCB, wireframe |
-| **Embedded** | STM32CubeIDE, VS Code, PlatformIO | Firmware, bootloader |
-| **Software** | IntelliJ, VS Code, Qt Creator | Aplikasi, API, GUI |
-| **Testing** | Oscilloscope, Logic Analyzer, pytest | Laporan pengujian |
-| **Deploy** | Docker, GitHub Actions, Ansible | Image, CI/CD pipeline |
+<!-- TYPING ANIMATION -->
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=500&color=00D2FF&center=true&vCenter=true&multiline=true&width=700&height=80&lines=Halo%2C+dunia+bawah+tanah!;Saya+Brian+Atmoko+—+Embedded+Systems+Engineer;Mari+jelajah+dari+angkasa+ke+inti+bumi" alt="Typing SVG" />
+</a>
 
 <br>
 
----
+<!-- FLOATING CLOUDS TRANSITION -->
+<pre style="color:#87CEEB;font-size:10px;line-height:1.2;opacity:0.5;">
+                .  ·  :  *  ¨  ¨  *  :  ·  .
+            MASUK  ATMOSFER...
+                ·  :  *  ¨  ¨  *  :  ·
+</pre>
 
-## 📊 Statistik GitHub
+<br>
 
-<div align="center">
-
-  <img height=190 src="https://github-readme-stats.vercel.app/api?username=brianatmoko&show_icons=true&theme=radical&include_all_commits=true&count_private=true&hide_border=true" />
-  <img height=190 src="https://github-readme-stats.vercel.app/api/top-langs/?username=brianatmoko&layout=compact&langs_count=10&theme=radical&hide_border=true&card_width=320" />
-
-  <br><br>
-
-  <img height=190 src="https://github-readme-streak-stats.herokuapp.com/?user=brianatmoko&theme=radical&hide_border=true" />
-  <img height=190 src="https://github-profile-trophy.vercel.app/?username=brianatmoko&theme=radical&no-frame=true&row=2&column=3&margin-w=15&margin-h=15" />
+<!-- GLOWING SEPARATOR -->
+<pre style="color:#00D2FF;font-size:14px;line-height:1;">
+  ═══ ⋆★⋆  DARI BINTANG  ★  KE  RUMPUT  ⋆★⋆ ═══
+</pre>
 
 </div>
 
-<br>
-
----
-
-## 🐍 Kontribusi
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/platane/snk/raw/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github.com/platane/snk/raw/output/github-contribution-grid-snake.svg" />
-    <img alt="github-snake" src="https://github.com/platane/snk/raw/output/github-contribution-grid-snake.svg" />
-  </picture>
-</div>
-
-<br>
-
----
-
-## 📫 Kontak
-
-<div align="center">
-  <br>
-  <a href="https://github.com/brianatmoko">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
-  </a>
-  <a href="mailto:brianatmoko@email.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
-  <a href="https://linkedin.com/in/brianatmoko">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-  <a href="https://brianatmoko.dev">
-    <img src="https://img.shields.io/badge/Website-000?style=for-the-badge&logo=vercel&logoColor=white" />
-  </a>
-  <br><br>
-
-  <i>"Dari firmware hingga cloud, dari sensor hingga dashboard — saya bangun di setiap lapisan."</i>
-
-  <br><br>
-
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,3,4,6&height=120&section=footer&text=MOKO-AI%20%E2%80%A2%20Dari%20hardware%20ke%20kecerdasan%20buatan&fontSize=18&fontAlignY=80" />
-</div>
+<!-- ================================================================== -->
+<!-- 🪐 AKHIR ZONA 1 · BERSAMBUNG KE ZONA 2: ATMOSFER                  -->
+<!-- ================================================================== -->
