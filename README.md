@@ -2,7 +2,7 @@
 
 <!-- TYPING ANIMATION -->
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?lines=Halo,+dunia+bawah+tanah!;Saya+Brian+Atmoko;Embedded+Systems+Engineer;Mari+jelajah+dari+angkasa&font=Fira+Code&weight=600&size=22&duration=3000&pause=500&color=00D2FF&center=true&vCenter=true&width=700&height=80" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?lines=Halo+dunia+bawah+tanah;Saya+Brian+Atmoko;Embedded+Engineer;Mari+jelajah+angkasa&font=Press+Start+2P&weight=400&size=14&duration=2500&pause=600&color=00D2FF&background=0D0A2E&center=true&vCenter=true&width=720&height=80" alt="Typing SVG" />
 </a>
 
 <br>
