@@ -18,17 +18,8 @@
 
 <br><br>
 
-<!-- Transition to Atmosphere -->
-<pre style="color:#87CEEB;font-size:11px;line-height:1.4;opacity:0.5;font-family:'Courier New',monospace;">
-                .  :  *  ¨  ¨  *  :  .
-              MEMASUKI  ATMOSFER...
-                .  :  *  ¨  ¨  *  :  .
-</pre>
-
-<br>
-
-<!-- Gradient wave: space -> sky -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1E2466,100:87CEEB&height=60&section=footer&fontSize=0" />
+<!-- Atmosphere transition SVG -->
+<img src="assets/atmosphere.svg" width="100%" alt="Atmosphere" style="max-width:800px;" />
 
 </div>
 
@@ -38,18 +29,8 @@
 
 <br>
 
-<pre style="color:#87CEEB;font-size:12px;line-height:1.6;font-family:'Courier New',monospace;">
-    ☁                         ☁
-                  ☁
-         ☁                    ☁    ☁
-                    ☁            ☁
-    ☁     ☁                 ☁
-</pre>
-
-<br>
-
 <!-- About Me Card -->
-<pre style="color:#A0C0E0;font-size:13px;line-height:1.8;font-family:'Courier New',monospace;border:1px solid #2D4A7A;padding:20px 30px;border-radius:8px;display:inline-block;text-align:left;background:rgba(13,13,43,0.3);">
+<pre style="color:#E0E8F0;font-size:13px;line-height:1.8;font-family:'Courier New',monospace;border:1px solid #6A9EC8;padding:20px 30px;border-radius:8px;display:inline-block;text-align:left;background:rgba(26,36,80,0.4);">
   Brian Atmoko
   Embedded Systems &amp; Fullstack Engineer
   Indonesia
@@ -71,18 +52,8 @@
 
 <br><br>
 
-<!-- Cloud transition to surface -->
-<pre style="color:#87CEEB;font-size:11px;line-height:1.4;opacity:0.5;font-family:'Courier New',monospace;">
-    ☁                         ☁
-                  ☁                         ☁
-         ☁                     ☁    ☁
-                    ☁             ☁
-</pre>
-
-<br>
-
-<!-- Gradient wave: sky -> surface -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:87CEEB,50:5B8C2A,100:3C5A1E&height=60&section=footer&fontSize=0" />
+<!-- Surface transition SVG -->
+<img src="assets/surface-transition.svg" width="100%" alt="to Surface" style="max-width:800px;" />
 
 </div>
 
