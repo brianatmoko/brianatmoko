@@ -211,18 +211,29 @@
   <rect x="56" y="496" width="4"  height="8"  fill="#1FB6D8"/>
   <rect x="54" y="492" width="8"  height="6"  fill="#9AA7B5"/>
   <text x="92" y="512" font-size="13" font-weight="bold" fill="#FCD34D" font-family="monospace">MOKO-AI (Project Flagship)</text>
-  <text x="92" y="530" font-size="10" fill="#A0C0E0" font-family="monospace">◆ AI terintegrasi: computer vision, NLP, autoML, edge inference</text>
-  <text x="92" y="548" font-size="10" fill="#A0C0E0" font-family="monospace">◆ Built with: C++, Python, Qt, TensorFlow, ONNX, STM32</text>
+  <text x="92" y="530" font-size="10" fill="#A0C0E0" font-family="monospace">◆ OS real-time untuk embedded: multitasking, driver framework, IPC</text>
+  <text x="92" y="548" font-size="10" fill="#A0C0E0" font-family="monospace">◆ Built with: C++, Python, Qt, STM32, ESP32, FreeRTOS</text>
 
-  <!-- creeper -->
+  <!-- creeper: redesigned closer to Minecraft original -->
   <g>
-    <rect x="650" y="496" width="100" height="100" fill="#4A8B3A" stroke="#3A6E2C" stroke-width="2"/>
-    <rect x="670" y="516" width="18" height="18" fill="#1C1C28"/>
-    <rect x="712" y="516" width="18" height="18" fill="#1C1C28"/>
-    <rect x="682" y="548" width="10" height="10" fill="#1C1C28"/>
-    <rect x="702" y="548" width="10" height="10" fill="#1C1C28"/>
-    <rect x="722" y="548" width="10" height="10" fill="#1C1C28"/>
-    <rect x="692" y="568" width="20" height="10" fill="#1C1C28"/>
+    <rect x="662" y="500" width="76" height="74" fill="#4A8B3A" stroke="#3A6E2C" stroke-width="2"/>
+    <rect x="662" y="500" width="76" height="10" fill="#5AA04A"/>
+    <rect x="674" y="510" width="52" height="4" fill="#3A6E2C"/>
+    <rect x="670" y="516" width="14" height="14" fill="#1C1C28"/>
+    <rect x="716" y="516" width="14" height="14" fill="#1C1C28"/>
+    <rect x="682" y="534" width="8" height="6" fill="#1C1C28"/>
+    <rect x="692" y="534" width="8" height="6" fill="#1C1C28"/>
+    <rect x="700" y="534" width="8" height="6" fill="#1C1C28"/>
+    <rect x="710" y="534" width="8" height="6" fill="#1C1C28"/>
+    <rect x="680" y="540" width="40" height="6" fill="#3A6E2C"/>
+    <rect x="668" y="574" width="12" height="22" fill="#4A8B3A" stroke="#3A6E2C" stroke-width="1"/>
+    <rect x="684" y="574" width="12" height="22" fill="#4A8B3A" stroke="#3A6E2C" stroke-width="1"/>
+    <rect x="704" y="574" width="12" height="22" fill="#4A8B3A" stroke="#3A6E2C" stroke-width="1"/>
+    <rect x="720" y="574" width="12" height="22" fill="#4A8B3A" stroke="#3A6E2C" stroke-width="1"/>
+    <rect x="669" y="594" width="10" height="4" fill="#3A6E2C"/>
+    <rect x="685" y="594" width="10" height="4" fill="#3A6E2C"/>
+    <rect x="705" y="594" width="10" height="4" fill="#3A6E2C"/>
+    <rect x="721" y="594" width="10" height="4" fill="#3A6E2C"/>
   </g>
 
   <!-- outer border -->
