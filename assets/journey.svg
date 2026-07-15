@@ -1,129 +1,62 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600" font-family="'Courier New', monospace">
-  <!-- ===== BACKGROUND BANDS ===== -->
-  <rect x="0" y="0"   width="800" height="80"  fill="#0B0720"/>
-  <rect x="0" y="80"  width="800" height="120" fill="#1A1030"/>
-  <rect x="0" y="200" width="800" height="40"  fill="#2E184A"/>
+  <!-- ===== BACKGROUND ===== -->
+  <rect x="0" y="0"   width="800" height="240" fill="#1C1C28"/>
   <rect x="0" y="240" width="800" height="40"  fill="#2E4A6E"/>
   <rect x="0" y="280" width="800" height="160" fill="#88CCEA"/>
   <rect x="0" y="440" width="800" height="80"  fill="#A8D8EF"/>
   <rect x="0" y="520" width="800" height="16"  fill="#5FB34A"/>
   <rect x="0" y="536" width="800" height="64"  fill="#8B5A2B"/>
 
-  <!-- ===== BINTANG (tersebar rapi, 3 ukuran) ===== -->
+  <!-- ===== STARS ===== -->
   <g fill="#FFFFFF">
-    <!-- size 2 -->
-    <rect x="40" y="30" width="2" height="2"/><rect x="100" y="60" width="2" height="2"/>
-    <rect x="160" y="20" width="2" height="2"/><rect x="200" y="80" width="2" height="2"/>
-    <rect x="260" y="40" width="2" height="2"/><rect x="340" y="60" width="2" height="2"/>
-    <rect x="380" y="20" width="2" height="2"/><rect x="420" y="80" width="2" height="2"/>
-    <rect x="540" y="30" width="2" height="2"/><rect x="580" y="70" width="2" height="2"/>
-    <rect x="620" y="40" width="2" height="2"/><rect x="720" y="80" width="2" height="2"/>
-    <rect x="760" y="30" width="2" height="2"/><rect x="80" y="110" width="2" height="2"/>
-    <rect x="140" y="90" width="2" height="2"/><rect x="230" y="120" width="2" height="2"/>
-    <rect x="300" y="100" width="2" height="2"/><rect x="360" y="130" width="2" height="2"/>
-    <rect x="460" y="90" width="2" height="2"/><rect x="520" y="120" width="2" height="2"/>
-    <rect x="600" y="100" width="2" height="2"/><rect x="680" y="130" width="2" height="2"/>
-    <rect x="740" y="110" width="2" height="2"/><rect x="50" y="160" width="2" height="2"/>
-    <rect x="120" y="180" width="2" height="2"/><rect x="190" y="160" width="2" height="2"/>
-    <rect x="250" y="170" width="2" height="2"/><rect x="310" y="190" width="2" height="2"/>
-    <rect x="430" y="170" width="2" height="2"/><rect x="500" y="150" width="2" height="2"/>
-    <rect x="560" y="180" width="2" height="2"/><rect x="650" y="190" width="2" height="2"/>
-    <rect x="770" y="170" width="2" height="2"/>
-    <!-- size 3 -->
-    <rect x="60"  y="70" width="3" height="3"/><rect x="280" y="150" width="3" height="3"/>
-    <rect x="550" y="90" width="3" height="3"/><rect x="700" y="60" width="3" height="3"/>
-    <!-- size 4 -->
-    <rect x="330" y="170" width="4" height="4"/><rect x="730" y="160" width="4" height="4"/>
+    <rect x="40"  y="30"  width="2" height="2"/><rect x="90"  y="60"  width="2" height="2"/>
+    <rect x="140" y="20"  width="2" height="2"/><rect x="190" y="80"  width="2" height="2"/>
+    <rect x="240" y="40"  width="2" height="2"/><rect x="300" y="70"  width="2" height="2"/>
+    <rect x="340" y="20"  width="2" height="2"/><rect x="390" y="90"  width="2" height="2"/>
+    <rect x="440" y="30"  width="2" height="2"/><rect x="500" y="60"  width="2" height="2"/>
+    <rect x="540" y="20"  width="2" height="2"/><rect x="590" y="80"  width="2" height="2"/>
+    <rect x="640" y="40"  width="2" height="2"/><rect x="690" y="90"  width="2" height="2"/>
+    <rect x="740" y="30"  width="2" height="2"/><rect x="70"  y="130" width="2" height="2"/>
+    <rect x="120" y="180" width="2" height="2"/><rect x="170" y="150" width="2" height="2"/>
+    <rect x="220" y="120" width="2" height="2"/><rect x="280" y="160" width="2" height="2"/>
+    <rect x="320" y="140" width="2" height="2"/><rect x="380" y="180" width="2" height="2"/>
+    <rect x="430" y="150" width="2" height="2"/><rect x="490" y="120" width="2" height="2"/>
+    <rect x="530" y="170" width="2" height="2"/><rect x="580" y="140" width="2" height="2"/>
+    <rect x="630" y="180" width="2" height="2"/><rect x="680" y="130" width="2" height="2"/>
+    <rect x="740" y="170" width="2" height="2"/><rect x="770" y="120" width="2" height="2"/>
+    <rect x="100" y="200" width="2" height="2"/><rect x="200" y="210" width="2" height="2"/>
+    <rect x="360" y="200" width="2" height="2"/><rect x="460" y="210" width="2" height="2"/>
+    <rect x="560" y="200" width="2" height="2"/><rect x="660" y="200" width="2" height="2"/>
+    <rect x="760" y="210" width="2" height="2"/>
+    <!-- a few brighter stars -->
+    <rect x="110" y="50"  width="3" height="3"/><rect x="550" y="130" width="3" height="3"/>
+    <rect x="380" y="50"  width="3" height="3"/><rect x="650" y="90"  width="3" height="3"/>
   </g>
 
-  <!-- ===== GLOWSTONE ===== -->
-  <g>
-    <rect x="78"  y="24"  width="6" height="6" fill="#FFFF8A"/><rect x="80"  y="26"  width="4" height="4" fill="#FFFFFF"/>
-    <rect x="318" y="14"  width="8" height="8" fill="#FFFF8A"/><rect x="320" y="16"  width="4" height="4" fill="#FFFFFF"/>
-    <rect x="598" y="34"  width="6" height="6" fill="#FFFF8A"/><rect x="600" y="36"  width="4" height="4" fill="#FFFFFF"/>
-  </g>
+  <!-- ===== BLOCKY MOON ===== -->
+  <rect x="670" y="30" width="44" height="44" fill="#D9D9D9"/>
+  <rect x="682" y="42" width="10" height="10" fill="#B0B0B0"/>
+  <rect x="698" y="52" width="8"  height="8"  fill="#B0B0B0"/>
+  <rect x="676" y="48" width="8"  height="10" fill="#B8B8B8"/>
 
-  <!-- ===== BUMI PLANET (kiri atas) ===== -->
-  <rect x="16" y="14" width="34" height="34" fill="#3FA9D6" opacity="0.3"/>
-  <rect x="22" y="20" width="24" height="24" fill="#2E6FB0"/>
-  <rect x="26" y="24" width="8"  height="8"  fill="#4A8B3A"/>
-  <rect x="36" y="28" width="6"  height="8"  fill="#4A8B3A"/>
+  <!-- ===== SUN ===== -->
+  <rect x="120" y="300" width="48" height="48" fill="#FCD34D"/>
+  <rect x="132" y="312" width="24" height="24" fill="#FFE9A0"/>
 
-  <!-- ===== BULAN (kanan atas) ===== -->
-  <rect x="666" y="18" width="72" height="72" fill="#D9D9D9" opacity="0.1"/>
-  <rect x="674" y="26" width="50" height="50" fill="#D9D9D9"/>
-  <rect x="688" y="38" width="12" height="12" fill="#B0B0B0"/>
-  <rect x="704" y="50" width="10" height="10" fill="#B0B0B0"/>
-  <rect x="680" y="44" width="10" height="14" fill="#B8B8B8"/>
-  <rect x="694" y="62" width="6"  height="6"  fill="#C2C2C2"/>
-
-  <!-- ===== ROKET (tengah, besar, descending) ===== -->
-  <g>
-    <!-- dispenser (nose) -->
-    <rect x="480" y="60"  width="24" height="16" fill="#8A8A8A"/>
-    <rect x="488" y="64"  width="8"  height="8"  fill="#1C1C28"/>
-    <!-- body iron blocks -->
-    <rect x="476" y="76"  width="52" height="16" fill="#B0B0B0"/>
-    <rect x="478" y="92"  width="48" height="28" fill="#C9CFD8"/>
-    <rect x="478" y="120" width="48" height="28" fill="#B0B0B0"/>
-    <rect x="478" y="148" width="48" height="12" fill="#B0B0B0"/>
-    <!-- iron block accents -->
-    <rect x="496" y="76"  width="12" height="4"  fill="#9AA7B5"/>
-    <rect x="482" y="92"  width="40" height="4"  fill="#9AA7B5"/>
-    <rect x="482" y="116" width="40" height="4"  fill="#9AA7B5"/>
-    <!-- window -->
-    <rect x="494" y="100" width="16" height="14" fill="#1FB6D8"/>
-    <rect x="498" y="104" width="8"  height="6"  fill="#87CEEB"/>
-    <!-- wings (trapdoor) -->
-    <rect x="456" y="100" width="20" height="20" fill="#6E4420"/>
-    <rect x="456" y="106" width="8"  height="4"  fill="#5E3C1B"/>
-    <rect x="528" y="100" width="20" height="20" fill="#6E4420"/>
-    <rect x="540" y="106" width="8"  height="4"  fill="#5E3C1B"/>
-    <!-- engine base (beacon) -->
-    <rect x="480" y="160" width="44" height="12" fill="#3F8F3F"/>
-    <rect x="484" y="164" width="36" height="8"  fill="#5FB34A"/>
-    <!-- beacon beam / flame -->
-    <rect x="490" y="172" width="24" height="20" fill="#FF6F00"/>
-    <rect x="494" y="192" width="16" height="16" fill="#FCD34D"/>
-    <rect x="490" y="208" width="24" height="22" fill="#FF6F00"/>
-    <rect x="496" y="230" width="12" height="14" fill="#FFFF8A"/>
-  </g>
-
-  <!-- ===== STEVE (berdiri di end stone, samping roket) ===== -->
-  <!-- end stone block -->
-  <rect x="418" y="132" width="24" height="24" fill="#E8E8D0"/>
-  <rect x="422" y="128" width="16" height="4"  fill="#DFDCC0"/>
-  <!-- Steve -->
-  <g>
-    <rect x="424" y="106" width="16" height="6"  fill="#5E3C1B"/>
-    <rect x="424" y="112" width="16" height="10" fill="#E0B080"/>
-    <rect x="428" y="114" width="10" height="6"  fill="#1FB6D8"/>
-    <rect x="426" y="122" width="12" height="10" fill="#F2F4F7"/>
-    <rect x="428" y="124" width="8"  height="4"  fill="#2E8FB8"/>
-    <rect x="420" y="122" width="6"  height="10" fill="#E6E9EE"/>
-    <rect x="438" y="122" width="6"  height="10" fill="#E6E9EE"/>
-    <rect x="426" y="132" width="6"  height="8"  fill="#E6E9EE"/>
-    <rect x="432" y="132" width="6"  height="8"  fill="#E6E9EE"/>
-    <rect x="424" y="140" width="14" height="4"  fill="#2E8FB8"/>
-  </g>
-
-  <!-- ===== ATMOSFER ===== -->
-  <!-- sun -->
-  <rect x="120" y="300" width="48" height="48" fill="#FCD34D"/><rect x="132" y="312" width="24" height="24" fill="#FFE9A0"/>
-  <!-- clouds -->
+  <!-- ===== BLOCKY CLOUDS ===== -->
   <g fill="#FFFFFF">
-    <rect x="80"  y="300" width="16" height="16"/><rect x="96"  y="300" width="16" height="16"/><rect x="80" y="316" width="16" height="16"/>
-    <rect x="220" y="330" width="16" height="16"/><rect x="236" y="330" width="16" height="16"/>
-    <rect x="360" y="308" width="16" height="16"/><rect x="376" y="308" width="16" height="16"/>
-    <rect x="520" y="320" width="16" height="16"/><rect x="536" y="320" width="16" height="16"/>
-    <rect x="620" y="300" width="16" height="16"/><rect x="636" y="300" width="16" height="16"/>
+    <rect x="70"  y="310" width="16" height="16"/><rect x="86"  y="310" width="16" height="16"/><rect x="70" y="326" width="16" height="16"/>
+    <rect x="200" y="340" width="16" height="16"/><rect x="216" y="340" width="16" height="16"/>
+    <rect x="340" y="320" width="16" height="16"/><rect x="356" y="320" width="16" height="16"/>
+    <rect x="500" y="330" width="16" height="16"/><rect x="516" y="330" width="16" height="16"/>
+    <rect x="610" y="310" width="16" height="16"/><rect x="626" y="310" width="16" height="16"/>
   </g>
 
-  <!-- sign -->
+  <!-- ===== ABOUT ME SIGN ===== -->
   <rect x="316" y="546" width="168" height="46" fill="#8B5A2B" stroke="#5E3C1B" stroke-width="4"/>
   <text x="400" y="576" text-anchor="middle" font-size="18" font-weight="bold" fill="#F2E2BC" letter-spacing="2">ABOUT ME</text>
 
-  <!-- frame -->
+  <!-- ===== PIXEL FRAME ===== -->
   <rect x="2" y="2" width="796" height="596" fill="none" stroke="#5A5A5A" stroke-width="4"/>
   <rect x="6" y="6" width="788" height="588" fill="none" stroke="#8A8A8A" stroke-width="2" opacity="0.7"/>
 </svg>
